@@ -8,5 +8,6 @@ RUN apt-get update && apt-get install -y python3 python3-pip && python3 -m pip i
 ADD ./ /app/
 EXPOSE 5055
 # RUN chmod +x /app/actionserver/start_services.sh
-RUN chmod +x ./start_services.sh
+# RUN chmod +x ./start_services.sh
+RUN chmod +x /app/start_services.sh
 CMD /app/actionserver/start_services.sh

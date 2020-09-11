@@ -11,7 +11,7 @@ defaults:
 
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
-  RUN_REGION: us-central1
+  RUN_REGION: asia-southeast1
   SERVICE_NAME: frendy-rasa-actions
 
 jobs:

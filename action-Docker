@@ -7,6 +7,6 @@ RUN apt-get update && apt-get install -y python3 python3-pip && python3 -m pip i
 
 ADD ./ /app/
 EXPOSE 5055
-HEALTHCHECK --interval=5s --timeout=3s CMD curl --fail http://localhost:5055/health || exit 1
+ENV PYTHONPATH "${PYTHONPATH}:${PWD}/app"
 RUN chmod +x /app/action_services.sh
 CMD /app/action_services.sh

@@ -1,9 +1,5 @@
-# Restaurant-Bot-Automation
-
-![Push Rasa bot container to Heroku](https://github.com/naaniz/Restaurant-Bot-Automation/workflows/Push%20Rasa%20bot%20container%20to%20Heroku/badge.svg)
-
-![Push action server to heroku](https://github.com/naaniz/Restaurant-Bot-Automation/workflows/Push%20action%20server%20to%20heroku/badge.svg)
-
+# Frendy-Bot
+*Releasing a feature will deploy to cloud run*
 #### MODULES LIST (append here)
 
 ```sh
@@ -69,7 +65,7 @@ $ rasa shell
         - [x] Back button to change dish after selecting
         - [ ] Back buttons everywhere
     - [x] Able to search any dish
-    - [x] Menu image based 
+    - [x] produ image based 
     - [ ] Category wise ordering
     - [ ] Explore Dishes by displaying Carousels
     - [ ] Sorts

@@ -1,13 +1,11 @@
-
-
-<!-- ## order food path
+## order product path
 *greet
     -utter_greet
-*order_food
-    -action_show_menu
+*order_product
+    -action_show_product
 	-order_form
 	-form{"name":"order_form"}
-	-form{"name":null} -->
+	-form{"name":null}
 
 
     
@@ -57,7 +55,7 @@
 	-form{"name":null}
 
  ## path 1
-* order_foodf
+* order_productf
 	- info_form
 	- form{"name": "info_form"}
 	- form{"name":null}

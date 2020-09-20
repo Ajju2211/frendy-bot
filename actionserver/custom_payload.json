@@ -1,43 +1,43 @@
 {
-    "restaurant": {
+    "frendy": {
         "name": "Azhar",
         "id": "1234nkjsdn",
         "city": "Hyderabad",
-        "menu_imgs": [
+        "product_imgs": [
             "https://image.freepik.com/free-vector/taco-food-restaurant-menu-template_23-2148595758.jpg",
             "https://image.freepik.com/free-vector/restaurant-menu-template-design_23-2148404703.jpg"
         ],
-        "menu": {
-            "starters": [
+        "product_menu": {
+            "furniture": [
                 {
-                    "dish": "Dosa",
+                    "product": "chair",
                     "price": 30,
                     "image": "url_image"
                 },
                 {
-                    "dish": "Noodles",
+                    "product": "bench",
                     "price": 30,
                     "image": "url_image"
                 },
                 {
-                    "dish": "wada",
+                    "product": "divan",
                     "price": 20,
                     "image": "url_image"
                 },
                 {
-                    "dish": "Poori",
+                    "product": "washand",
                     "price": 45,
                     "image": "url_image"
                 }
             ],
-            "meals": [
+            "electronics": [
                 {
-                    "dish": "Dal Rice",
+                    "product": "mobiles",
                     "price": 50,
                     "image": "url_image"
                 },
                 {
-                    "dish": "Chicken Dum Biryani",
+                    "product": "laptop",
                     "price": 150,
                     "image": "url_image"
                 }

@@ -7,7 +7,7 @@
 - good evening
 - hey there
 
-## intent:order_food
+## intent:order_product
 
 - I want to place an order.
 - Hey bot help me to place an order.
@@ -22,14 +22,14 @@
 
 ## intent: inform
 
-- [Noodles](dish_name)
-- [Burger](dish_name)
-- [Pizza](dish_name)
-- [Chicken](dish_name)
-- [Sandwich](dish_name)
-- [Poha](dish_name)
-- [Samosa](dish_name)
-- [Ice Cream](dish_name)
+- [chair](product_name)
+- [stool](product_name)
+- [bench(product_name)
+- [divan](product_name)
+- [washstand](product_name)
+- [bookcase](product_name)
+- [dinningset](product_name)
+- [wardrobe](product_name)
 - My name is [Aditya Aggarwal](username)
 - My name is [Pratik Banka](username)
 - My name is [Gaurav Garg](username)
@@ -163,9 +163,9 @@
 - [very slow delivery]{"entity": "any_thing", "role": "complaint_input"}
 - [the app does not respond at all]{"entity": "any_thing", "role": "complaint_input"}
 - my discount coupon did not apply
-- [Food Quality](complain_type)
+- [Product Quality](complain_type)
 - [Delivery](complain_type)
-- [Naaniz App](complain_type)
+- [Frendy App](complain_type)
 - [Other](complain_type)
 
 ## intent:feedback_init

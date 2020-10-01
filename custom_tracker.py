@@ -41,7 +41,7 @@ import sqlalchemy as sa
 from rasa.core.tracker_store import TrackerStore
 
 logger = logging.getLogger(__name__)
-COLLECTION = "restauarant-bot-tracker"
+COLLECTION = "frendy-bot-tracker"
 
 import traceback
 
@@ -114,7 +114,6 @@ class FirebaseTrackerStore(TrackerStore):
         """User defined serialisation"""
         try:
             dialogue = tracker.as_dialogue().as_dict()
-            print(f'dialoggue: {dialogue}')
             dialogue = json.dumps(dialogue)
             dialogue = json.loads(dialogue)
             return dialogue

@@ -1,5 +1,5 @@
 ADD_TO_CART = ("add to cart","add","save","cart","store","add now")
 BUY_NOW = ("buy", "purchase", "buy now", "order now", "order")
 CHANGE_QUANTITY = ("back", "change quantity", "edit quantity", "edit", "go back")
-CHANGE_DISH = ("change dish", "modify dish", "new dish")
+CHANGE_PRODUCT = ("change product", "modify product", "new product")
 SWITCH_CATEGORY = ("select category", "new category", "change category", "modify category","switch category") 

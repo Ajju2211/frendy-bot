@@ -1,16 +1,23 @@
-import spacy
-import en_core_web_sm
-nlp = en_core_web_sm.load()
+from nltk.corpus import stopwords 
+from nltk.tokenize import word_tokenize 
+puctuations = ("?", ".", ";", ":", "!")
 class Filter:
     def __init__(self,sentence): 
-        self.nlp = en_core_web_sm.load()
-        self.doc = nlp(sentence)
+    	self.stop_words = set(stopwords.words('english'))
+    	self.word_tokens = word_tokenize(sentence)
     def filterWords(self):
-        filtered_sentence =([x for x in self.doc if not x.is_stop])
-        filtered_sentence = ' '.join(map(str, filtered_sentence))
-        return (filtered_sentence)
+    	filtered_sentence = [w for w in self.word_tokens if not w in self.stop_words]
+    	filtered_sentence = ' '.join(map(str, filtered_sentence))
+    	return self.removePuctuation(filtered_sentence)
+    def removePuctuation(self,sentence):
+    	return "".join(ch for ch in sentence if ch not in puctuations)
 
 
 if __name__ == "__main__":
 	fs = Filter("Where can I find fee structure of Semister")
 	print(fs.filterWords())
+
+
+
+
+

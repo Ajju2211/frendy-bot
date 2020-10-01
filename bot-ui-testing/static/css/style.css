@@ -1,8 +1,8 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background: url('../img/frendy-banner.png') no-repeat center center fixed;
-    background-size: cover;
-    /* background-color: #ff9e80; */
+    /*background: url('../img/body.png') no-repeat center center fixed;
+    background-size: cover;*/
+    background-color: #ff9e80;
 }
 
 

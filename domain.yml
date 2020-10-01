@@ -13,7 +13,6 @@ actions:
   - utter_ask_complain_type
   - utter_ask_rating
   - utter_ask_feedback_text
-  - action_show_product
   - action_show_product_menu
   - utter_query_type
   - utter_ask_faq_choice

@@ -16,7 +16,7 @@ from actionserver.controllers.constants.orderForm import *
 import logging
 from actionserver.utils.utilities import INVALID_VALUE
 
-dish_list = []
+product_list = []
 quant_list = []  # takes quantity from user
 
 
@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 
 
 with open(r'.\actionserver\custom_payload.json') as f:
-    restaurant_menu = json.load(f)
+    frendy_product_menu = json.load(f)
 
 
 def query_back(dispatcher):

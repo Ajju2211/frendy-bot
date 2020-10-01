@@ -17,12 +17,12 @@ import logging
 from actionserver.utils.utilities import INVALID_VALUE
 import traceback
 
-dish_list = []
+product_list = []
 quant_list = []  # takes quantity from user
 
 
 with open(r'.\actionserver\custom_payload.json') as f:
-    restaurant_menu = json.load(f)
+    frendy_product_menu = json.load(f)
 
 # Code snippet for global back
 # return [Restarted(), UserUttered(text="/get_started", parse_data={

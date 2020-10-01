@@ -17,14 +17,14 @@ import logging
 from actionserver.utils.utilities import INVALID_VALUE
 
 
-dish_list = []
+product_list = []
 quant_list = []  # takes quantity from user
 
 logger = logging.getLogger(__name__)
 
 
 with open(r'.\actionserver\custom_payload.json') as f:
-    restaurant_menu = json.load(f)
+    frendy_product_menu = json.load(f)
 
 
 def query_back(dispatcher):
@@ -86,7 +86,7 @@ class ComplainForm(FormAction):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict]:
-        complaints = ["food quality", "delivery", "naaniz app", "other"]
+        complaints = ["product quality", "delivery", "naaniz app", "other"]
         value = value.strip().lower()
         if value == "back1" or value == "back":
             return {"complain_type": INVALID_VALUE, "complain_text": INVALID_VALUE}

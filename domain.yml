@@ -13,7 +13,7 @@ actions:
   - utter_ask_complain_type
   - utter_ask_rating
   - utter_ask_feedback_text
-  - action_show_menu
+  - action_show_product
   - utter_query_type
   - utter_ask_faq_choice
   - utter_ask_faq_text
@@ -25,8 +25,8 @@ entities:
   - username
   - mailid
   - phone_number
-  - dish_name
-  - dish_category
+  - product_name
+  - product_category
   - proceed
   - continue
   - moveon
@@ -52,7 +52,7 @@ forms:
 intents:
   - greet
   - goodbye
-  - order_food
+  - order_product
   - inform
   - bot_challenge
   - deny
@@ -80,8 +80,8 @@ responses:
     -
       buttons:
         -
-          payload: "/complain{\"complain_type\": \"Food Quality\"}"
-          title: "Food Quality"
+          payload: "/complain{\"complain_type\": \"product Quality\"}"
+          title: "product Quality"
         -
           payload: "/complain{\"complain_type\": \"Delivery\"}"
           title: Delivery
@@ -157,8 +157,8 @@ responses:
           payload: "/inform{\"proceed\":\"buy now\"}"
           title: "Buy Now"
         -
-          payload: "/inform{\"proceed\":\"change dish\"}"
-          title: "Select Other Food item"
+          payload: "/inform{\"proceed\":\"change product\"}"
+          title: "Select Other product item"
         -
           payload: "/inform{\"proceed\":\"switch category\"}"
           title: "Switch category"
@@ -234,8 +234,8 @@ responses:
     -
       buttons:
         -
-          payload: /order_food
-          title: "Order Food"
+          payload: /order_product
+          title: "Order product"
         -
           payload: /query_init
           title: Query
@@ -248,7 +248,7 @@ responses:
       text: "I am a bot, powered by Rasa."
   utter_not_serving:
     -
-      text: "Currently we are not serving this dish. Would you like to have something else?"
+      text: "Currently we are not serving this product. Would you like to have something else?"
   utter_query_type:
     -
       buttons:
@@ -275,9 +275,9 @@ slots:
     type: unfeaturized
   confirm:
     type: unfeaturized
-  dish_name:
+  product_name:
     type: unfeaturized
-  dish_category:
+  product_category:
     type: unfeaturized  
   faq_choice:
     type: unfeaturized

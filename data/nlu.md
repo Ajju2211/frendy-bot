@@ -23,14 +23,14 @@
 
 ## intent: inform
 
-- [Noodles](dish_name)
-- [Burger](dish_name)
-- [Pizza](dish_name)
-- [Chicken](dish_name)
-- [Sandwich](dish_name)
-- [Poha](dish_name)
-- [Samosa](dish_name)
-- [Ice Cream](dish_name)
+- [Noodles](product_name)
+- [Burger](product_name)
+- [Pizza](product_name)
+- [Chicken](product_name)
+- [Sandwich](product_name)
+- [Poha](product_name)
+- [Samosa](product_name)
+- [Ice Cream](product_name)
 - My name is [Aditya Aggarwal](username)
 - My name is [Pratik Banka](username)
 - My name is [Gaurav Garg](username)
@@ -151,16 +151,16 @@
 
 ## intent:complain
 
-- lots of fruits and vegetables
-- too many snacks
-- too many sweets
-- too much junk food
-- a lot of carbs
-- too much fatty food
-- very bad taste
-- bad taste
-- taste not good
-- very spicy
+- product not delivered at time
+- different colour
+- deliverd wrong product
+- broken product
+- different product
+- bad packing
+- very bad quality
+- bad quality
+- quality not good
+- bad mainenance
 - unhygenic packing
 - dirty packing
 - [very slow delivery]{"entity": "any_thing", "role": "complaint_input"}

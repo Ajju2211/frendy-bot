@@ -1,6 +1,10 @@
-# Frendy-Bot
-*Releasing a feature will deploy to cloud run*
-#### MODULES LIST (append here)
+# Restaurant-Bot-Automation
+
+![Push Rasa bot container to Heroku](https://github.com/naaniz/Restaurant-Bot-Automation/workflows/Push%20Rasa%20bot%20container%20to%20Heroku/badge.svg)
+
+![Push action server to heroku](https://github.com/naaniz/Restaurant-Bot-Automation/workflows/Push%20action%20server%20to%20heroku/badge.svg)
+
+#### MODULES LIST (append here!)
 
 ```sh
 $ pip3 install  rasa==1.10.8
@@ -60,11 +64,11 @@ $ rasa run -m models --enable-api --cors "*" --debug
 
 #### TASK DONE
 - [ ] Complaints 
-    - [ ] Back button in complaints 
+    - [x] Back button in complaints 
     - [x] Saving complaints 
     - [x] Able to save anything
 - [ ] Feedbacks
-    - [ ] Back button
+    - [x] Back button
     - [x] Saving feedbacks
     - [x] Able to save anything
 - [ ] Ordering 
@@ -72,7 +76,7 @@ $ rasa run -m models --enable-api --cors "*" --debug
         - [x] Back button to change dish after selecting
         - [ ] Back buttons everywhere
     - [x] Able to search any dish
-    - [x] produ image based 
+    - [x] Menu image based 
     - [ ] Category wise ordering
     - [ ] Explore Dishes by displaying Carousels
     - [ ] Sorts
@@ -86,9 +90,9 @@ $ rasa run -m models --enable-api --cors "*" --debug
         - [ ] location
         - [ ] Rating
 - [ ] Faqs
-    - [ ] Back in Faqs
+    - [x] Back in Faqs
     - [x] Search question
-    - [ ] Select Queston (collapsible button)
+    - [x] Select Queston (collapsible button)
 - [ ] home menu showing options
     - [ ] Back in home menu
     - [x] included Faq's
@@ -98,5 +102,4 @@ $ rasa run -m models --enable-api --cors "*" --debug
 
 License
 ----
-
-MIT
+Apache License 2.0

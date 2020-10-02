@@ -1,45 +1,72 @@
 {
-    "restaurant": {
+    "frendy": {
         "name": "Azhar",
         "id": "1234nkjsdn",
         "city": "Hyderabad",
-        "menu_imgs": [
+        "product_menu_imgs": [
             "https://image.freepik.com/free-vector/taco-food-restaurant-menu-template_23-2148595758.jpg",
             "https://image.freepik.com/free-vector/restaurant-menu-template-design_23-2148404703.jpg"
         ],
-        "menu": {
-            "starters": [
+        "product_menu": {
+            "furniture": [
                 {
-                    "dish": "Dosa",
+                    "product": "chair",
                     "price": 30,
-                    "image": "url_image"
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
                 },
                 {
-                    "dish": "Noodles",
+                    "product": "bench",
                     "price": 30,
-                    "image": "url_image"
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
                 },
                 {
-                    "dish": "wada",
+                    "product": "divan",
                     "price": 20,
-                    "image": "url_image"
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
                 },
                 {
-                    "dish": "Poori",
+                    "product": "washand",
                     "price": 45,
-                    "image": "url_image"
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
                 }
             ],
-            "meals": [
+            "Electronics": [
                 {
-                    "dish": "Dal Rice",
-                    "price": 50,
-                    "image": "url_image"
+                    "product": "mobiles",
+                    "price": 30,
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
                 },
                 {
-                    "dish": "Chicken Dum Biryani",
+                    "product": "laptop",
+                    "price": 20,
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
+                },
+                {
+                    "product": "HeadPhone",
+                    "price": 45,
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
+                },
+                {
+                    "product": "Television",
+                    "price": 50,
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
+                },
+                {
+                    "product": "Camera",
                     "price": 150,
-                    "image": "url_image"
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
+                }
+            ],
+            "Stationery ": [
+                {
+                    "product": "Pen",
+                    "price": 50,
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
+                },
+                {
+                    "product": "Calculator",
+                    "price": 150,
+                    "image": "https://res.cloudinary.com/demo/image/upload/w_1000,h_1000,c_limit/cashew_chicken.jpg"
                 }
             ]
         }

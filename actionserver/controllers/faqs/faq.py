@@ -6,8 +6,8 @@ from actionserver.controllers.faqs.filter import Filter
 
 
 class FAQ:
-    def __init__(self, excel_file):
-        self.df = pd.read_excel(excel_file)
+    def __init__(self, csv_file):
+        self.df = pd.read_csv(csv_file)
         self.fuzz = fuzz
         # self.match = Match()
 

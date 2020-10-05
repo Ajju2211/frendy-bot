@@ -1,0 +1,5 @@
+ADD ./ /app/
+EXPOSE 5055
+ENV PYTHONPATH "${PYTHONPATH}:${PWD}/app"
+RUN chmod +x /app/action_services.sh
+CMD /app/action_services.sh

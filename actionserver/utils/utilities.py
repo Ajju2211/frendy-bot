@@ -24,7 +24,7 @@ def saveDictAsJsonFile(dictData, filePath):
 
 
 def product_info(product_name, category):
-    with open(r'.\actionserver\custom_payload.json') as f:
+    with open(r'./actionserver/custom_payload.json') as f:
         frendy_menu = json.load(f)
 
     menu = frendy_menu['frendy']['product_menu']

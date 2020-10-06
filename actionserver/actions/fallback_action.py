@@ -20,7 +20,7 @@ product_list = []
 quant_list = []  # takes quantity from user
 
 
-with open(r'.\actionserver\custom_payload.json') as f:
+with open(r'./actionserver/custom_payload.json') as f:
     frendy_product_menu = json.load(f)
 
 # Code snippet for global back

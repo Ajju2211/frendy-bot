@@ -5,6 +5,6 @@ cd app/
 #         --endpoints endpoints.yml \
 #         --credentials credentials.yml \
 #         -p $PORT
-# rasa train -c spacy_config.yml & \
-rasa run --model models --enable-api --cors "*" --debug \
+rasa train -c convert_config.yml && \
+rasa run --model models --enable-api  --endpoints prod_endpoints.yml --cors "*" --debug \
          -p $PORT

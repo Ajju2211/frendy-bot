@@ -1,0 +1,34 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: "en"
+
+pipeline:
+  - name: ConveRTTokenizer
+  - name: ConveRTFeaturizer
+  - name: "components.RegexEntityExtractor"
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4 
+# - name: "SklearnIntentClassifier"
+  - name: DIETClassifier
+    epochs: 200
+    entity_recognition: false
+  - name: CRFEntityExtractor
+  
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 200
+  - name: FormPolicy
+  - name: MappingPolicy
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.5
+    core_threshold: 0.3
+    fallback_action_name: "action_default_fallback"

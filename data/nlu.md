@@ -22,72 +22,13 @@
 - Help me to place order.
 
 ## intent: inform
-
-- [chair](product_name)
-- [stool](product_name)
-- [bench](product_name)
-- [divan](product_name)
-- [washstand](product_name)
-- [bookcase](product_name)
-- [dinningset](product_name)
-- [wardrobe](product_name)
 - My name is [Aditya Aggarwal](username)
 - My name is [Pratik Banka](username)
 - My name is [Gaurav Garg](username)
 - My name is [Tejaswini](username)
 - My name is [Awais Akhtar](username)
 - My name is [Kshitij Anand](username)
-- My name is [Muzzafar](username)
-- My name is [Matloob Faruki](username)
-- My name is [Satyam Jha](username)
-- [7999545121](phone_number)
-- [8464646451](phone_number)
-- [8484645482](phone_number)
-- [7984844848](phone_number)
-- [7896421188](phone_number)
-- [6486531484](phone_number)
-- [4684615846](phone_number)
-- [9446316548](phone_number)
-- [4984415654](phone_number)
-- [8444448489](phone_number)
-- [8646153166](phone_number)
-- [6456546656](phone_number)
-- [6513215313](phone_number)
-- [9864464645](phone_number)
-- [2948613377](phone_number)
-- [5593965741](phone_number)
-- [back2](phone_number)
-- [srffnwvb@aol.com](mailid)
-- [kfquzxgm@zohocorp.com](mailid)
-- [kpmvchemistryt@gmx.com](mailid)
-- [vnalhydp@gmx.com](mailid)
-- [xcpudvti@icloud.com](mailid)
-- [icsplitf@gmx.com](mailid)
-- [ymaegatr@zohocorp.com](mailid)
-- [horstnrg@yahoo.com](mailid)
-- [ffcmdyuv@gmail.com](mailid)
-- [bkvnoija@gmail.com](mailid)
-- [vrbgftmm@icloud.com](mailid)
-- [brpdmaev@gmx.com](mailid)
-- [back1](mailid)
-- [yes](continue)
-- [yes](continue) sure
-- [Yes](continue) sure
-- [Yes](continue)
-- [YES](continue)
-- [YES](continue) sure
-- [NO](continue)
-- [no](continue)
-- [No](continue)
-<!-- this is added -->
-- [AB-123](customer_id)
-- [BB-321](customer_id)
-- [ABC-1234](product_id)
-- [BBB-4321](product_id)
-- [12345](transaction_id)
-- [23232](transaction_id)
-- [aZghg21@1hj](any_text)
-- [azhar@jhj](any_text)
+
 <!-- - [starters](dish_category)
 - [meals](dish_category) -->
 
@@ -97,8 +38,8 @@
 - \b[A-Z]{3}-\d{4}\b
 ## regex:transaction_id
 - \b\d{5}\b
-## regex:any_thing
-- @sys.any
+<!-- ## regex:any_thing
+- @sys.any -->
 
 ## regex:quantity
 - \b\d{1,3}\b

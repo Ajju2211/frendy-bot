@@ -15,6 +15,7 @@ from actionserver.controllers.faqs.faq import FAQ
 from actionserver.controllers.constants.orderForm import *
 import logging
 from actionserver.utils.utilities import INVALID_VALUE
+from actionserver.utils.get_metadata import get_latest_metadata
 
 product_list = []
 quant_list = []  # takes quantity from user
@@ -79,6 +80,10 @@ class DefaultFallback(FormAction):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         queryText = tracker.latest_message.get('text')
 
+        # print("tracker-latest-message: ",tracker.latest_message)
+        # print("tracker-current-state: ",tracker.current_state)
+        meta = get_latest_metadata(tracker)
+        print(meta)
         dispatcher.utter_message(
             "Fallback Triggered bcoz u've typed something! "+queryText)
         return []

@@ -1,7 +1,10 @@
-POST https://frendy-rasa-bot-ilsxqqnpkq-uc.a.run.app/webhooks/rest/webhook HTTP/1.1
+POST http://localhost:5005/webhooks/rest/webhook HTTP/1.1
 Content-Type: application/json
 
 {
-    "sender":"12121",
-    "message":"go back"
+    "sender":"testmeta",
+    "message":"",
+    "metadata": {"metadata":"1212113131131sdsds"}
+    
 }
+

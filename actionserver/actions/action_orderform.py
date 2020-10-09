@@ -15,12 +15,14 @@ from actionserver.controllers.faqs.faq import FAQ
 from actionserver.controllers.constants.orderForm import *
 import logging
 from actionserver.utils.utilities import INVALID_VALUE
+from actionserver.utils.get_metadata import get_latest_metadata
 
 product_list = []
 quant_list = []  # takes quantity from user
 
 logger = logging.getLogger(__name__)
 
+print("order",INVALID_VALUE)
 
 with open(r'./actionserver/custom_payload.json') as f:
     frendy_product_menu = json.load(f)
@@ -223,11 +225,11 @@ class OrderForm(FormAction):
         dispatcher.utter_message(text="Your Order", json_message=message)
 
     def validate_product_category(self,
-                               value: Text,
-                               dispatcher: CollectingDispatcher,
-                               tracker: Tracker,
-                               domain: Dict[Text, Any],
-                               ) -> Dict[Text, Any]:
+                                  value: Text,
+                                  dispatcher: CollectingDispatcher,
+                                  tracker: Tracker,
+                                  domain: Dict[Text, Any],
+                                  ) -> Dict[Text, Any]:
 
         data = []
         category = value
@@ -255,11 +257,11 @@ class OrderForm(FormAction):
         # return {"product_category": category}
 
     def validate_product_name(self,
-                           value: Text,
-                           dispatcher: CollectingDispatcher,
-                           tracker: Tracker,
-                           domain: Dict[Text, Any],
-                           ) -> Dict[Text, Any]:
+                              value: Text,
+                              dispatcher: CollectingDispatcher,
+                              tracker: Tracker,
+                              domain: Dict[Text, Any],
+                              ) -> Dict[Text, Any]:
         if value:
             value = value.lower()
             if value == "back" or value == "back1":
@@ -342,7 +344,7 @@ class OrderForm(FormAction):
             # check if the value exist in individual list
             if proceed in ADD_TO_CART:
                 product_obj = {"product": product_name,
-                            "quantity": quant, "category": cat}
+                               "quantity": quant, "category": cat}
                 product_list.append(product_obj)
                 self.showProducts(cat, dispatcher, tracker)
                 print("quantity")
@@ -350,7 +352,7 @@ class OrderForm(FormAction):
 
             elif proceed in BUY_NOW:
                 product_obj = {"product": product_name,
-                            "quantity": quant, "category": cat}
+                               "quantity": quant, "category": cat}
                 product_list.append(product_obj)
                 return {"proceed": proceed}
 

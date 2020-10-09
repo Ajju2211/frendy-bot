@@ -8,6 +8,10 @@
 	-order_form
 	-form{"name":"order_form"}
 	-form{"name":null}
+	-action_check_auth
+	-user_info_form
+	-form{"name":"user_info_form"}
+	-form{"name":null}
 	-order_rating_form
 	-form{"name":"order_rating_form"}
 	-form{"name":null}

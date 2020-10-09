@@ -20,6 +20,7 @@ from actionserver.utils.get_metadata import get_latest_metadata
 product_list = []
 quant_list = []  # takes quantity from user
 
+print("fallback",INVALID_VALUE)
 
 with open(r'./actionserver/custom_payload.json') as f:
     frendy_product_menu = json.load(f)

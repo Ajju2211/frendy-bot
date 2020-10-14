@@ -100,8 +100,8 @@ pipeline:
     epochs: 200
     entity_recognition: false
   - name: CRFEntityExtractor
-  - name: ResponseSelector
-    epochs: 100
+#  - name: ResponseSelector
+#    epochs: 100
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

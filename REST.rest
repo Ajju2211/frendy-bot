@@ -1,10 +1,25 @@
-POST http://localhost:5005/webhooks/rest/webhook HTTP/1.1
+# POST https://frendy-rasa-bot-ilsxqqnpkq-uc.a.run.app/webhooks/custom_rest/webhook HTTP/1.1
+POST http://localhost:5005/webhooks/custom_rest/webhook HTTP/1.1
 Content-Type: application/json
 
 {
-    "sender":"testmeta",
-    "message":"",
+    "sender":"testmeta1",
+    "message":"order",
     "metadata": {"metadata":"dsdasfaff"}
     
 }
+
+# {
+#     "recipient_id": "testmeta1",
+#     "custom": {
+#       "payload": "text",
+#       "platform": "whatsapp",
+#       "text": "Order product , Query, Faq"
+#     }
+#   }
+
+
+
+
+
 

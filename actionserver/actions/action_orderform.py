@@ -72,10 +72,24 @@ class ActionShowProductMenu(Action):
         x = open('./actionserver/custom_payload.json', "r")
         data = json.load(x)
         data_frendy = data['frendy']
+
+        data_list = []
+
         for i in data['frendy']['product_menu_imgs']:
             url = str(i)
             dispatcher.utter_message("product_menu of that frendy is ")
             dispatcher.utter_message(image=url)
+            
+            data_list.append({"url":url})
+
+        message = {
+                    "platform": "whatsapp",
+                    "payload": "image",
+                    "data":data_list
+                }
+
+        dispatcher.utter_message(json_message = message)    
+
         return []
 
 
@@ -159,16 +173,33 @@ class OrderForm(FormAction):
 
     def askCategories(self, dispatcher):
         data = []
+        displayCats = "Select categories from below :- \n"
         for keys in frendy_product_menu['frendy']['product_menu'].keys():
             val = '\"{}\"'.format(keys)
             cat = {"label": f"{keys}",
                    "value": '/inform{\"product_category\":'+val+'}'}
             data.append(cat)
+            
+            cats = '\x2A{}\x2A'.format(keys)
+
+            displayCats = displayCats + '\\' + cats + '\n'
 
         message = {"payload": "dropDown", "data": data}
 
+        messsages = {
+            "platform": "whatsapp",
+            "payload": "text",
+            "text": displayCats
+          }
+        
+        dispatcher.utter_message(json_message=messsages)
+
+
         dispatcher.utter_message(
             text="Please select a option", json_message=message)
+
+        
+
     # To display productes of category
 
     def showProducts(self, category, dispatcher, tracker):

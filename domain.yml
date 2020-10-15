@@ -230,6 +230,14 @@ responses:
           payload: /faq_init
           title: FAQ
       text: "How can we help you today?"
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please type the below options to continue:- \n \
+        \x2AOrder product\x2A \n \
+        \x2AQuery\x2A \n \
+        \x2AFaq\x2A \n" 
+
   utter_iamabot:
     -
       text: "I am a bot, powered by Rasa."

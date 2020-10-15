@@ -49,10 +49,19 @@
 			<ul>
 				<li>sending response from domain.yml <b>responses:
 				<pre><code>utter_greet:
-    		- text: "Hello 😀"</code></pre></b></li>
+           custom:
+              platform: whatsapp
+              payload: text
+              text: "Please select a option"                 
+               </code></pre></b></li>
 				<li>sending response from custom actions actions.py
-
-				<b><pre><code>dispatcher.utter_message(text="Hello 😀")</code></pre></b>
+				<b><pre><code>
+          messsage = {
+            "platform": "whatsapp",
+            "payload": "text",
+            "text": "Hello!!"
+          }
+          dispatcher.utter_message(json_message=messsage)</code></pre></b>
 				</li>
 			</ul>
 	</div>
@@ -61,13 +70,31 @@
 			<ul>
 				<li>sending response from domain.yml <b>responses:
 				<pre><code>utter_cheer_up:
-  - text: "Here is something to cheer you up 😉 "
-    image: "https://i.imgur.com/nGF1K8f.jpg"</code></pre></b></li>
+  -custom:
+    platform: whatsapp
+    payload: image
+    data:
+      - url: "https://i.imgur.com/nGF1K8f.jpg"
+        text: Here is something to
+        cheer you up 😉"
+      - url: "https://i.imgur.com/nGF1K8f.jpg"
+    </code></pre></b></li>
 				<li>sending response from custom actions actions.py
 
-				<b><pre><code>dispatcher.utter_message(text="Here is something to
-				 cheer you up 😉", 
-				image="https://i.imgur.com/nGF1K8f.jpg")</code></pre></b>
+				<b><pre><code>
+          message = {
+            "platform": whatsapp,
+            payload: image,
+            data:[
+            {
+              "url":"url",
+              "text": "hasjahsjadh"
+            },
+            {
+              "url":"url"
+            }]
+          }
+          dispatcher.utter_message(json_message= messsage)</code></pre></b>
 				</li>
 			</ul>
 	</div>

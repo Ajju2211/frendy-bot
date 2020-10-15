@@ -12,7 +12,10 @@ COPY . /app/
 WORKDIR /app
 
 EXPOSE 5005
+
 ENV PYTHONPATH "${PYTHONPATH}:${PWD}"
+
+RUN echo current path $(pwd)
 # RUN cd app/
 
 # CMD cd app/
@@ -22,4 +25,4 @@ RUN rasa train
 RUN chmod +x /app/start_services.sh
 # CMD /app/start_services.sh
 
-CMD /start_services.sh
+CMD /app/start_services.sh

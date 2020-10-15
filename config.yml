@@ -110,6 +110,10 @@ policies:
   - name: TEDPolicy
     max_history: 5
     epochs: 100
+  - name: FallbackPolicy
+    nlu_threshold: 0.4
+    core_threshold: 0.3
+    fallback_action_name: action_default_fallback
   - name: MappingPolicy
   - name: FormPolicy
 

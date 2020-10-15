@@ -54,6 +54,11 @@ def query_back(dispatcher):
 
 def greet_back(dispatcher):
     dispatcher.utter_message("Going back!!!")
+    dispatcher.utter_message(json_message = {
+        "platform":"whatsapp",
+        "payload":"text",
+        "text":"Welcome back to Frendy Shopping"
+    });
     return [UserUttered(text="/greet", parse_data={
         "intent": {"confidence": 1.0, "name": "greet"},
         "entities": []
@@ -98,10 +103,20 @@ class FeedbackForm(FormAction):
                 return {"rating": value, "feedback_text": None}
             else:
                 dispatcher.utter_message("Please enter valid option.")
+                dispatcher.utter_message(json_message = {
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"Please enter valid option"
+                });
                 return {"rating": None, "feedback_text": None}
         except Exception as e:
             print(e)
             dispatcher.utter_message("Please enter valid option.")
+            dispatcher.utter_message(json_message = {
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"Please enter valid option"
+            });
             return {"rating": None, "feedback_text": None}
 
     def validate_feedback_text(
@@ -137,6 +152,12 @@ class FeedbackForm(FormAction):
 
             dispatcher.utter_message("Your Response :\n Rating :'{rate}' star \n Feedback: '{feedbk}' \n Submitted!Thank You!".format(
                 rate=rating, feedbk=feedback))
+            dispatcher.utter_message(json_message = {
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"Your Response :\n Rating :'{rate}' star \n Feedback: '{feedbk}' \n Submitted!Thank You!".format(
+                rate=rating, feedbk=feedback)
+            });
         else:
             dispatcher.utter_message("Feedback form closed")
             li = [SlotSet("rating", None), SlotSet("feedback_text", None)]

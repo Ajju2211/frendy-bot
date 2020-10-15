@@ -49,6 +49,11 @@ def query_back(dispatcher):
 
 def greet_back(dispatcher):
     dispatcher.utter_message("Going back!!!")
+    dispatcher.utter_message(json_message = {
+        "platform":"whatsapp",
+        "payload":"text",
+        "text":"Welcome back to Frendy"
+    });
     return [UserUttered(text="/greet", parse_data={
         "intent": {"confidence": 1.0, "name": "greet"},
         "entities": []
@@ -86,7 +91,7 @@ class ComplainForm(FormAction):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict]:
-        complaints = ["product quality", "delivery", "naaniz app", "other"]
+        complaints = ["product quality", "delivery", "frendy app", "other"]
         value = value.strip().lower()
         if value == "back1" or value == "back":
             return {"complain_type": INVALID_VALUE, "complain_text": INVALID_VALUE}
@@ -94,6 +99,11 @@ class ComplainForm(FormAction):
             return {"complain_type": value}
         else:
             dispatcher.utter_message("please type valid option.")
+            dispatcher.utter_message(json_message = {
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"please type valid option."
+            });
             return {"complain_type": None}
 
     def validate_complain_text(
@@ -131,8 +141,20 @@ class ComplainForm(FormAction):
 
             dispatcher.utter_message("Your Complaint :\n Complaint Area:{comp_type}\n Complaint: '{comp}' \n has been registered!".format(
                 comp_type=comp_type, comp=comp))
+            dispatcher.utter_message(json_message = {
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"Your Complaint :\n Complaint Area:{comp_type}\n Complaint: '{comp}' \n has been registered!".format(
+                comp_type=comp_type, comp=comp)
+            });
+            
         else:
             dispatcher.utter_message("Complaints Form is closed")
+            dispatcher.utter_message(json_message = {
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"Thanks for choosing us to server, we are always ready to hear your queries."
+            });
             li = [SlotSet("complain_type", None),
                   SlotSet("complain_text", None)]
             li.extend(query_back(dispatcher))

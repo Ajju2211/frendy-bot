@@ -56,6 +56,11 @@ def query_back(dispatcher):
 
 def greet_back(dispatcher):
     dispatcher.utter_message("Going back!!!")
+    dispatcher.utter_message(json_message = {
+    "platform":"whatsapp",
+    "payload":"text",
+    "text":"Welcome back to Fredy Shopping."
+    })
     return [UserUttered(text="/greet", parse_data={
         "intent": {"confidence": 1.0, "name": "greet"},
         "entities": []
@@ -159,6 +164,11 @@ class OrderForm(FormAction):
                     dispatcher.utter_message(
                         text="type back otherwise!",
                         buttons=button_resp)
+                    dispatcher.utter_message(json_message = {
+                    "platform":"whatsapp",
+                    "payload":"text",
+                    "text":"Type \x2ABack\x2A otherwise."
+                    })
                     self.askCategories(dispatcher)
                 elif slot == 'product_name':
                     self.showProducts(tracker.get_slot(
@@ -180,9 +190,9 @@ class OrderForm(FormAction):
                    "value": '/inform{\"product_category\":'+val+'}'}
             data.append(cat)
             
-            cats = '\x2A{}\x2A'.format(keys)
+            cats = "\x2A{}\x2A".format(keys.strip())
 
-            displayCats = displayCats + '\\' + cats + '\n'
+            displayCats = displayCats  + cats + "\n"
 
         message = {"payload": "dropDown", "data": data}
 
@@ -318,15 +328,30 @@ class OrderForm(FormAction):
                         if product_name.lower() == j['product'].lower():
                             dispatcher.utter_message(
                                 "it costs {}".format(j['price']))
+                            dispatcher.utter_message(json_message = {
+                            "platform":"whatsapp",
+                            "payload":"text",
+                            "text":"it costs {}".format(j['price'])
+                            })
                             return {"product_name": product_name}
                         else:
                             continue
                             # dispatcher.utter_template("utter_not_serving",tracker)
                             # return {"product_name":None}
                     dispatcher.utter_template("utter_not_serving", tracker)
+                    dispatcher.utter_message(json_message = {
+                    "platform":"whatsapp",
+                    "payload":"text",
+                    "text":"Sorry we are not selling '"+product_name+"'"
+                    })
                     return {"product_name": None}
                 else:
                     dispatcher.utter_message(text="No such category found")
+                    dispatcher.utter_message(json_message = {
+                    "platform":"whatsapp",
+                    "payload":"text",
+                    "text":"No such category found!"
+                    })
 
         # if product_name in dataset.keys():
         #     dispatcher.utter_message("it costs {}".format(dataset[product_name][0]))
@@ -355,6 +380,11 @@ class OrderForm(FormAction):
             return {"product_name": product_name, "quantity": quantity}
         except:
             dispatcher.utter_message(text="Please Enter Valid Number")
+            dispatcher.utter_message(json_message = {
+            "platform":"whatsapp",
+            "payload":"text",
+            "text":"Please enter valid number"
+            })
             return {"product_name": product_name, "quantity": None}
 
     def validate_proceed(
@@ -401,9 +431,19 @@ class OrderForm(FormAction):
                 # Select other product
                 dispatcher.utter_message(text="Please select a valid option")
                 # self.showProducts(cat, dispatcher, tracker)
+                dispatcher.utter_message(json_message = {
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"Please select valid option"
+                });
                 return {"proceed": None, REQUESTED_SLOT: "proceed"}
         else:
             dispatcher.utter_message(text="Please select valid option")
+            dispatcher.utter_message(json_message = {
+            "platform":"whatsapp",
+            "payload":"text",
+            "text":"Please select valid option"
+            });
             return {"proceed": None, REQUESTED_SLOT: "proceed"}
 
     def submit(
@@ -437,5 +477,10 @@ class OrderForm(FormAction):
                 # amount += total
             self.showCart(dispatcher, tracker)
             dispatcher.utter_message("Total Amount : {}".format(amount))
+            dispatcher.utter_message(json_message = {
+            "platform":"whatsapp",
+            "payload":"text",
+            "text":"Total Amount : {} \n Thanks for ordering".format(amount)
+            });
             dispatcher.utter_message("Thanks for ordering")
             return [AllSlotsReset()]

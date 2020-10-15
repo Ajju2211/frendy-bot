@@ -56,6 +56,11 @@ def query_back(dispatcher):
 
 def greet_back(dispatcher):
     dispatcher.utter_message("Going back!!!")
+    dispatcher.utter_message(json_message = {
+    "platform":"whatsapp",
+    "payload":"text",
+    "text":"Welcome Back to Frendy Shopping."
+    });
     return [UserUttered(text="/greet", parse_data={
         "intent": {"confidence": 1.0, "name": "greet"},
         "entities": []

@@ -78,6 +78,11 @@ responses:
         -
           payload: "/navigations{\"navigation\": \"back2\"}"
           title: Back
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please Describe your complain.\n \
+        type \x2A\backx2A otherwise"
   utter_ask_complain_type:
     -
       buttons:
@@ -97,6 +102,15 @@ responses:
           payload: "/complain{\"complain_type\":\"back1\"}"
           title: Back
       text: "What is complain regarding ?"
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "What is your complaint regarding?
+        \x2A1\x2A product quality \n \
+        \x2A2\x2A Delivery \n \
+        \x2A3\x2A Frendy App \n \
+        \x2A4\x2A Other \n \
+        type \x2A\backx2A otherwise"
   utter_ask_confirm:
     -
       buttons:
@@ -120,6 +134,13 @@ responses:
           payload: "/faq_choice{\"faq_choice\": \"back2\"}"
           title: Back
       text: "How should we get your FAQ?"
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "How shoud we get your FAQ?. \n \
+        \x2A1\x2A to choose from our set of Faqs \
+        \x2A2\x2A to type on your own!.\n \
+        type \x2A\backx2A otherwise"
 
   utter_ask_faq_text:
     -
@@ -128,6 +149,11 @@ responses:
           payload: "/navigations{\"navigation\": \"back3\"}"
           title: Back
       text: "Please enter your question."
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please type your question. \n \
+        type \x2A\backx2A otherwise"
   utter_ask_feedback_text:
     -
       text: "Please enter your feedback."
@@ -135,6 +161,11 @@ responses:
         - 
           payload: "/navigations{\"navigation\":\"back2\"}"
           title: Back
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please give us your feedback!. \n \
+        type \x2A\backx2A otherwise"
 
   utter_ask_proceed:
     -
@@ -155,9 +186,23 @@ responses:
           payload: "/inform{\"proceed\":\"change quantity\"}"
           title: "Change quantity"
       text: "Please select above options"
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please type the below choice.\n \
+        \x2AAdd to cart\x2A \n
+        \x2ABuy now\x2A \n
+        \x2ASelect other product item\x2A \n
+        \x2ASwitch category\x2A \n
+        \x2AChange quantity\x2A \n"
   utter_ask_quantity:
     -
       text: "Please enter the quantity"
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please Enter quantity.\n \
+        type \x2ABack\x2A\n otherwise"
   utter_ask_rating:
     -
       buttons:
@@ -180,6 +225,11 @@ responses:
           payload: "/rating{\"rating\":\"back1\"}"
           title: Back
       text: "Please rate your experience out of 5 ?"
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please rate your experince out of \x2A5\x2A .\n \
+        type \x2ABack\x2A\n otherwise"
 
 
   utter_goodbye:
@@ -195,7 +245,12 @@ responses:
           title: "Yes"
         - 
           payload: "/inform{\"confirm\":\"NO\"}"
-          title: "No"     
+          title: "No"
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Would you like to rate us?."
+
           
   utter_ask_order_rating:
     -
@@ -215,7 +270,11 @@ responses:
           title: 4
         -
           payload: "/rating{\"rating\":\"5\"}"
-          title: 5            
+          title: 5
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please rate your experince out of \x2A5\x2A."
 
   utter_greet:
     -
@@ -233,7 +292,7 @@ responses:
       custom: 
         platform: whatsapp
         payload: text
-        text: "Please type the below options to continue:- \n \
+        text: "Welcome to the frendy bot:- \n \
         \x2AOrder product\x2A \n \
         \x2AQuery\x2A \n \
         \x2AFaq\x2A \n" 
@@ -258,11 +317,23 @@ responses:
           payload: /greetback
           title: Back
       text: "What kind of query is it?"
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "What kind of query is it? \n \
+        \x2AFeedback\x2A \n \
+        \x2AComplaint\x2A \n \
+        \x2AFaq\x2A \n"
 
 
   utter_ask_username:
     -
       text: "What is your name?"
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "What is your name?"
+
 
   utter_ask_mailid:
     -
@@ -271,6 +342,11 @@ responses:
           payload: "/inform{\"mailid\":\"back1\"}"
           title: Back
       text: "Please enter your mail id."
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please enter your valid maild id!.\n \
+        type \x2ABack\x2A\n otherwise"
 
   utter_ask_phone_number:
     -
@@ -279,14 +355,24 @@ responses:
           payload: "/inform{\"phone_number\":\"back2\"}"
           title: Back
       text: "Please enter your phone number."
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please enter your alternate phone number.\n \
+        type \x2ABack\x2A\n otherwise"
 
   utter_ask_pincode:
     -
       text : "Please enter your pincode/zipcode"
       buttons:
         -
-          payload: "/inform{\"pincode\":\"back\"}"      
+          payload: "/inform{\"pincode\":\"back\"}"
           text: Back
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please enter your Pin/Zip code.\n \
+        type \x2ABack\x2A\n otherwise"
 
 
   utter_ask_locality:
@@ -296,6 +382,11 @@ responses:
         -
           payload: "/inform{\"locality\":\"back\"}"      
           text: Back          
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please enter your Locality.\n \
+        type \x2ABack\x2A\n otherwise"
 
   utter_ask_state:
     -
@@ -303,7 +394,12 @@ responses:
       buttons:
         -
           payload: "/inform{\"state\":\"back\"}"      
-          text: Back          
+          text: Back
+      custom: 
+        platform: whatsapp
+        payload: text
+        text: "Please enter your State.\n \
+        type \x2ABack\x2A\n otherwise"
 
 
 session_config:

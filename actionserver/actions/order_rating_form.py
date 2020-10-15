@@ -53,6 +53,11 @@ def query_back(dispatcher):
 
 def greet_back(dispatcher):
     dispatcher.utter_message("Going back!!!")
+    dispatcher.utter_message(json_message = {
+    "platform":"whatsapp",
+    "payload":"text",
+    "text":"Welcome back to Frendy Shopping."
+    })
     return [UserUttered(text="/greet", parse_data={
         "intent": {"confidence": 1.0, "name": "greet"},
         "entities": []
@@ -137,10 +142,20 @@ class OrderRatingForm(FormAction):
             else:
                 dispatcher.utter_message(
                     text='please type rating in between 1 to 5')
+                dispatcher.utter_message(json_message = {
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"Please type rating in between \x2A1-5\x2A"
+                })
                 return {"order_rating": None, REQUESTED_SLOT: "order_rating"}
         except ValueError as e:
             dispatcher.utter_message(
                 text='please type rating in between 1 to 5')
+            dispatcher.utter_message(json_message = {
+            "platform":"whatsapp",
+            "payload":"text",
+            "text":"Please type rating in between \x2A1-5\x2A"
+            })
             return {"order_rating": None, REQUESTED_SLOT: "order_rating"}
 
         except Exception as ex:
@@ -148,6 +163,11 @@ class OrderRatingForm(FormAction):
             print(ex)
             dispatcher.utter_message(
                 text='please type rating in between 1 to 5')
+            dispatcher.utter_message(json_message = {
+            "platform":"whatsapp",
+            "payload":"text",
+            "text":"Please type rating in between \x2A1-5\x2A"
+            })
             return {"order_rating": None, REQUESTED_SLOT: "order_rating"}
 
     def submit(self,
@@ -163,10 +183,21 @@ class OrderRatingForm(FormAction):
 
             dispatcher.utter_message(
                 text='Thank you your review has been submitted')
+            dispatcher.utter_message(json_message = {
+            "platform":"whatsapp",
+            "payload":"text",
+            "text":"Thank you, your review has been submitted!"
+            })
             # return {"give_rating": None, "order_rating": None}
             return [SlotSet("give_rating", None), SlotSet("order_rating", None)]
         else:
             dispatcher.utter_message(
                 text='Thankyou for ordering from us Your order will be ready shortly')
             # return {"give_rating": None, "order_rating": None}
+            dispatcher.utter_message(json_message = {
+            "platform":"whatsapp",
+            "payload":"text",
+            "text":"Thanks for ordering with us Your order will be delivered shortly, \n \
+                track your order from the Frendy App."
+            })
             return [SlotSet("give_rating", None), SlotSet("order_rating", None)]

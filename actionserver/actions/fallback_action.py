@@ -85,6 +85,9 @@ class DefaultFallback(FormAction):
         # print("tracker-current-state: ",tracker.current_state)
         meta = get_latest_metadata(tracker)
         print(meta)
-        dispatcher.utter_message(
-            "Fallback Triggered bcoz u've typed something! "+queryText)
+        dispatcher.utter_message(json_message = {
+        "platform":"whatsapp",
+        "payload":"text",
+        "text":"Hey I don't understand it."
+        })
         return []

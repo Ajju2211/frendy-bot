@@ -241,9 +241,28 @@ class OrderForm(FormAction):
                 text="Please type the product name", json_message=message, buttons=button_resp)
 
             # return {"product_category": category}
-
+            dispatcher.utter_message(json_message={
+                "platform":"whatsapp",
+                "payload":"image",
+                "data":[
+                    {
+                    "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg?size=664&ext=jpg&ga=GA1.2.2138941491.1602861868",
+                    "text":"select product from above"
+                    }]
+            })
+            dispatcher.utter_message(json_message={
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"type \x2Aback\x2A otherwise"
+            })
         except:
             dispatcher.utter_message(text="No such Category Found")
+            dispatcher.utter_message(json_message={
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"No such Category Found \n \
+                 type \x2Aback\x2A otherwise"
+            })
             raise Exception("No such Category")
             # return {"product_category":None}
 
@@ -264,6 +283,13 @@ class OrderForm(FormAction):
         message = {"payload": "cartCarousels", "data": data}
 
         dispatcher.utter_message(text="Your Order", json_message=message)
+        dispatcher.utter_message(json_message={
+            "platform":"whatsapp",
+            "payload":"image",
+            "data": [{
+                "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg?size=664&ext=jpg&ga=GA1.2.2138941491.1602861868"
+            }]
+        })
 
     def validate_product_category(self,
                                   value: Text,

@@ -136,8 +136,8 @@ class FaqForm(FormAction):
                 "text":"How shoud we get your FAQ?. \n \
                 \x2A1\x2A to choose from our set of Faqs \n \
                 \x2A2\x2A to type on your own!.\n \
-                type \x2A\backx2A otherwise"
-            });
+                type \x2Aback\x2A otherwise"
+            })
 
             return {
                 "faq_choice": None,

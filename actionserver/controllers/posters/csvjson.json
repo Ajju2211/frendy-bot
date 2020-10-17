@@ -1,0 +1,1684 @@
+{
+"data":[
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f85a74500375.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f85a74500375.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Kohinoor CharMinar Select Basmati Rice",
+    "mrp": 569,
+    "discount": 190,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=7058",
+    "Quantity": "5Kg",
+    "Price": 379
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f86df4dd7ca5.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f86df4dd7ca5.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Laxmipati Rice Poha",
+    "mrp": 35,
+    "discount": 0,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=7082",
+    "Quantity": "500gm",
+    "Price": 27
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f86df4dd7ca5.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f86df4dd7ca5.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Laxmipati Rice Poha",
+    "mrp": 65,
+    "discount": 16,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=7082",
+    "Quantity": "1Kg",
+    "Price": 49
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f5243599b9b7.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f5243599b9b7.jpg",
+    "Category": "Salt Sugar & Gud",
+    "Item": "Classic Sugar",
+    "mrp": 112,
+    "discount": 33,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=827",
+    "Quantity": "2Kg",
+    "Price": 79
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591acf3f1ea.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591acf3f1ea.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Fortune Besan",
+    "mrp": 95,
+    "discount": 6,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5092",
+    "Quantity": "1Kg",
+    "Price": 89
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ad14b7f7.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ad14b7f7.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Farali Flour",
+    "mrp": 63,
+    "discount": 29,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5096",
+    "Quantity": "500gm",
+    "Price": 34
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ad25af41.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ad25af41.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Laxmipati Maida",
+    "mrp": 50,
+    "discount": 12,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5098",
+    "Quantity": "1Kg",
+    "Price": 38
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ad457834.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ad457834.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Rajgira atta",
+    "mrp": 80,
+    "discount": 31,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5102",
+    "Quantity": "500gm",
+    "Price": 49
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ad5439f6.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ad5439f6.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Shingoda Atta",
+    "mrp": 50,
+    "discount": 8,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5104",
+    "Quantity": "250gm",
+    "Price": 42
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ad71d26e.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ad71d26e.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Aashirvaad Wheat Atta",
+    "mrp": 82,
+    "discount": 7,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5108",
+    "Quantity": "2Kg",
+    "Price": 75
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ad71d26e.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ad71d26e.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Aashirvaad Wheat Atta",
+    "mrp": 211,
+    "discount": 39,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5108",
+    "Quantity": "5Kg",
+    "Price": 172
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ad71d26e.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ad71d26e.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Aashirvaad Wheat Atta",
+    "mrp": 450,
+    "discount": 0,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5108",
+    "Quantity": "10Kg",
+    "Price": 450
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ad83130f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ad83130f.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Chakki Atta",
+    "mrp": 350,
+    "discount": 211,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5110",
+    "Quantity": "5Kg",
+    "Price": 139
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ad83130f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ad83130f.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Chakki Atta",
+    "mrp": 50,
+    "discount": 16,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5110",
+    "Quantity": "1Kg",
+    "Price": 34
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5aff3559bd0.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5aff3559bd0.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Sarvottam Chakki Atta",
+    "mrp": 198,
+    "discount": 54,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5114",
+    "Quantity": "5Kg",
+    "Price": 144
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591adb56d10.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591adb56d10.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Gaay Chhap Besan",
+    "mrp": 45,
+    "discount": 3,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5116",
+    "Quantity": "500gm",
+    "Price": 42
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591adb56d10.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591adb56d10.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Gaay Chhap Besan",
+    "mrp": 86,
+    "discount": 7,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5116",
+    "Quantity": "1Kg",
+    "Price": 79
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591add5bc62.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591add5bc62.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Uttam Sooji",
+    "mrp": 26,
+    "discount": 3,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5120",
+    "Quantity": "500gm",
+    "Price": 23
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591add5bc62.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591add5bc62.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Uttam Sooji",
+    "mrp": 50,
+    "discount": 6,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5120",
+    "Quantity": "1Kg",
+    "Price": 44
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ade5f791.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ade5f791.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Premium Sooji",
+    "mrp": 35,
+    "discount": 15,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5122",
+    "Quantity": "500gm",
+    "Price": 20
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ade5f791.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ade5f791.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Premium Sooji",
+    "mrp": 70,
+    "discount": 31,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5122",
+    "Quantity": "1Kg",
+    "Price": 39
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f75888e730ba.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f75888e730ba.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Laxmipati Sooji",
+    "mrp": 30,
+    "discount": 8,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5679",
+    "Quantity": "500gm",
+    "Price": 22
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f75889074844.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f75889074844.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Laxmipati Besan",
+    "mrp": 50,
+    "discount": 5,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5683",
+    "Quantity": "500gm",
+    "Price": 45
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f758891b4090.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f758891b4090.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Laxmipati Maida",
+    "mrp": 26,
+    "discount": 4,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5685",
+    "Quantity": "500gm",
+    "Price": 22
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f786fe166ae4.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f786fe166ae4.jpg",
+    "Category": "Atta Flours & Sooji",
+    "Item": "Energetic Energetic Atta",
+    "mrp": 225,
+    "discount": 78,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6628",
+    "Quantity": "5Kg",
+    "Price": 147
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b2b22986.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b2b22986.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Uttam Daliya",
+    "mrp": 28,
+    "discount": 1,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5262",
+    "Quantity": "500gm",
+    "Price": 27
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b2c3f3f0.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b2c3f3f0.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Laxmipati Moreya Barnyard Millet",
+    "mrp": 70,
+    "discount": 5,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5264",
+    "Quantity": "500gm",
+    "Price": 65
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b2e93339.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b2e93339.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Premium Poha",
+    "mrp": 40,
+    "discount": 15,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5268",
+    "Quantity": "500gm",
+    "Price": 25
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b2e93339.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b2e93339.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Premium Poha",
+    "mrp": 60,
+    "discount": 15,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5268",
+    "Quantity": "1Kg",
+    "Price": 45
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b30b1555.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b30b1555.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Laxmipati Super Quality Sabudana",
+    "mrp": 55,
+    "discount": 16,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5272",
+    "Quantity": "500gm",
+    "Price": 39
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b18b3d7e27.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b18b3d7e27.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Jeerasar Rice",
+    "mrp": 99,
+    "discount": 61,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5274",
+    "Quantity": "1Kg",
+    "Price": 38
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b18b3d7e27.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b18b3d7e27.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Jeerasar Rice",
+    "mrp": 399,
+    "discount": 210,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5274",
+    "Quantity": "5Kg",
+    "Price": 189
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b33a0b4a.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b33a0b4a.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Fortune Biryani Special Basmati Rice",
+    "mrp": 175,
+    "discount": 66,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5278",
+    "Quantity": "1Kg",
+    "Price": 109
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b34b1a9d.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b34b1a9d.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Fortune Dubar Super Basmati Rice",
+    "mrp": 149,
+    "discount": 60,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5280",
+    "Quantity": "1Kg",
+    "Price": 89
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b36e342f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b36e342f.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Fortune Rozana Basmati Rice",
+    "mrp": 699,
+    "discount": 390,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5284",
+    "Quantity": "5Kg",
+    "Price": 309
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f75888f6522f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f75888f6522f.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Laxmipati Rava",
+    "mrp": 30,
+    "discount": 7,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5681",
+    "Quantity": "500gm",
+    "Price": 23
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f758892b40ec.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f758892b40ec.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Laxmipati Daliya",
+    "mrp": 30,
+    "discount": 2,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5687",
+    "Quantity": "500gm",
+    "Price": 28
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f758893a6e5b.png",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f758893a6e5b.png",
+    "Category": "Rice & Other Grains",
+    "Item": "Laxmipati Maize Poha",
+    "mrp": 40,
+    "discount": 5,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5689",
+    "Quantity": "500gm",
+    "Price": 35
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f786ff067e59.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f786ff067e59.jpg",
+    "Category": "Rice & Other Grains",
+    "Item": "Loose Sabudana",
+    "mrp": 60,
+    "discount": 21,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6656",
+    "Quantity": "500gm",
+    "Price": 39
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b12d3b922c.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b12d3b922c.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Amul Cow Ghee",
+    "mrp": 250,
+    "discount": 3,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5218",
+    "Quantity": "500ml",
+    "Price": 247
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b12d3b922c.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b12d3b922c.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Amul Cow Ghee",
+    "mrp": 500,
+    "discount": 35,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5218",
+    "Quantity": "1Litre",
+    "Price": 465
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b165ffef.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b165ffef.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Aabad Pure Ghee",
+    "mrp": 269,
+    "discount": 70,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5222",
+    "Quantity": "500ml",
+    "Price": 199
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b165ffef.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b165ffef.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Aabad Pure Ghee",
+    "mrp": 535,
+    "discount": 156,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5222",
+    "Quantity": "1Litre",
+    "Price": 379
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f7c2dd0a3a2f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f7c2dd0a3a2f.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Amul Pure Ghee",
+    "mrp": 249,
+    "discount": 10,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5224",
+    "Quantity": "500ml",
+    "Price": 239
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f7c2dd0a3a2f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f7c2dd0a3a2f.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Amul Pure Ghee",
+    "mrp": 490,
+    "discount": 45,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5224",
+    "Quantity": "1Litre",
+    "Price": 445
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b1982f80.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b1982f80.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Saffola Gold Sunflower + Rice Bran Oil e",
+    "mrp": 139,
+    "discount": 4,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5228",
+    "Quantity": "1Litre",
+    "Price": 135
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b1a859ef.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b1a859ef.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Fortune Rice Bran Oil e",
+    "mrp": 135,
+    "discount": 15,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5230",
+    "Quantity": "1Litre",
+    "Price": 120
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f689fb46f693.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f689fb46f693.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Ankur Cottonseed Oil",
+    "mrp": 150,
+    "discount": 51,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5232",
+    "Quantity": "1Litre",
+    "Price": 99
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f689fb46f693.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f689fb46f693.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Ankur Cottonseed Oil",
+    "mrp": 675,
+    "discount": 150,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5232",
+    "Quantity": "5Litre",
+    "Price": 525
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b1411a143e.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b1411a143e.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Gulab Cottonseed Oil",
+    "mrp": 2001,
+    "discount": 302,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5234",
+    "Quantity": "15Kg",
+    "Price": 1699
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b1533d8498.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b1533d8498.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Tirupati Cottonseed Oil",
+    "mrp": 1840,
+    "discount": 91,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5236",
+    "Quantity": "15Kg",
+    "Price": 1749
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b170e5d235.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b170e5d235.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Gulab Groundnut Oil",
+    "mrp": 3051,
+    "discount": 802,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5242",
+    "Quantity": "15Kg",
+    "Price": 2249
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b17e096364.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b17e096364.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Ankur Groundnut Oil",
+    "mrp": 900,
+    "discount": 160,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5248",
+    "Quantity": "5Litre",
+    "Price": 740
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b17e096364.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b17e096364.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Ankur Groundnut Oil",
+    "mrp": 190,
+    "discount": 45,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5248",
+    "Quantity": "1Litre",
+    "Price": 145
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f69ecb209391.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f69ecb209391.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Fortune Sun Flower Oil",
+    "mrp": 735,
+    "discount": 86,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5250",
+    "Quantity": "5Litre",
+    "Price": 649
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f69ecb209391.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f69ecb209391.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Fortune Sun Flower Oil",
+    "mrp": 2075,
+    "discount": 176,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5250",
+    "Quantity": "15Litre",
+    "Price": 1899
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b2600037.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b2600037.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Fortune Soyabean Edible Oil",
+    "mrp": 680,
+    "discount": 91,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5252",
+    "Quantity": "5Litre",
+    "Price": 589
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b2600037.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b2600037.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Fortune Soyabean Edible Oil",
+    "mrp": 2075,
+    "discount": 476,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5252",
+    "Quantity": "15Litre",
+    "Price": 1599
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f786fecd70b3.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f786fecd70b3.jpg",
+    "Category": "Oils & Ghee",
+    "Item": "Fortune Filtered Groundnut Oil",
+    "mrp": 185,
+    "discount": 36,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6650",
+    "Quantity": "1L",
+    "Price": 149
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f52439ecb295.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f52439ecb295.jpg",
+    "Category": "Salt Sugar & Gud",
+    "Item": "Nirma Shudh Iodized Salt",
+    "mrp": 15,
+    "discount": 4,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=970",
+    "Quantity": "1Kg",
+    "Price": 11
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f5243b2257c3.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f5243b2257c3.jpg",
+    "Category": "Salt Sugar & Gud",
+    "Item": "Puro Healthy Salt",
+    "mrp": 110,
+    "discount": 5,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=1008",
+    "Quantity": "1Kg",
+    "Price": 105
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b3b3403d.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b3b3403d.jpg",
+    "Category": "Salt Sugar & Gud",
+    "Item": "Tata Salt",
+    "mrp": 20,
+    "discount": 2,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5292",
+    "Quantity": "1Kg",
+    "Price": 18
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b1b398a0d1.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b1b398a0d1.jpg",
+    "Category": "Salt Sugar & Gud",
+    "Item": "Madhur Sugar",
+    "mrp": 55,
+    "discount": 11,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5296",
+    "Quantity": "1Kg",
+    "Price": 44
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b1b398a0d1.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b1b398a0d1.jpg",
+    "Category": "Salt Sugar & Gud",
+    "Item": "Madhur Sugar",
+    "mrp": 270,
+    "discount": 53,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5296",
+    "Quantity": "5Kg",
+    "Price": 217
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f62f6206f35c.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f62f6206f35c.jpg",
+    "Category": "Salt Sugar & Gud",
+    "Item": "Dhampure Sugar",
+    "mrp": 315,
+    "discount": 104,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5302",
+    "Quantity": "5Kg",
+    "Price": 211
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f75988b4a4c8.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f75988b4a4c8.jpg",
+    "Category": "Salt Sugar & Gud",
+    "Item": "Ankur Salt",
+    "mrp": 18,
+    "discount": 8,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5695",
+    "Quantity": "1Kg",
+    "Price": 10
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b118ae1f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b118ae1f.jpg",
+    "Category": "Milk",
+    "Item": "Amul Milk Tetra Pack e",
+    "mrp": 64,
+    "discount": 3,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5212",
+    "Quantity": "1Litre",
+    "Price": 61
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b1259bfdb2.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b1259bfdb2.jpg",
+    "Category": "Milk",
+    "Item": "Amul Milk Powder",
+    "mrp": 212,
+    "discount": 23,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5214",
+    "Quantity": "500gm",
+    "Price": 189
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f524389b4bfc.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f524389b4bfc.jpg",
+    "Category": "Dals",
+    "Item": "Loose Moong Dal Yellow",
+    "mrp": 95,
+    "discount": 40,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=930",
+    "Quantity": "500gm",
+    "Price": 55
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f524389b4bfc.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f524389b4bfc.jpg",
+    "Category": "Dals",
+    "Item": "Loose Moong Dal Yellow",
+    "mrp": 180,
+    "discount": 80,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=930",
+    "Quantity": "1Kg",
+    "Price": 100
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f52439d05535.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f52439d05535.jpg",
+    "Category": "Dals",
+    "Item": "NBK Toor Dal Dry",
+    "mrp": 153,
+    "discount": 28,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=966",
+    "Quantity": "1Kg",
+    "Price": 125
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ae06a5ac.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ae06a5ac.jpg",
+    "Category": "Dals",
+    "Item": "Laxmipati Split Chana Dal",
+    "mrp": 70,
+    "discount": 28,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5126",
+    "Quantity": "500gm",
+    "Price": 42
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ae16ef8a.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ae16ef8a.jpg",
+    "Category": "Dals",
+    "Item": "Chana Dal",
+    "mrp": 75,
+    "discount": 34,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5128",
+    "Quantity": "500gm",
+    "Price": 41
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ae16ef8a.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ae16ef8a.jpg",
+    "Category": "Dals",
+    "Item": "Chana Dal",
+    "mrp": 150,
+    "discount": 75,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5128",
+    "Quantity": "1Kg",
+    "Price": 75
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ae29b24f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ae29b24f.jpg",
+    "Category": "Dals",
+    "Item": "Tata Sampann Chana Dal",
+    "mrp": 63,
+    "discount": 14,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5130",
+    "Quantity": "500gm",
+    "Price": 49
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ae8d9e1c.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ae8d9e1c.jpg",
+    "Category": "Dals",
+    "Item": "Laxmipati Chilka Green Moong Dal",
+    "mrp": 90,
+    "discount": 16,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5140",
+    "Quantity": "500gm",
+    "Price": 74
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591ae9ee6d4.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591ae9ee6d4.jpg",
+    "Category": "Dals",
+    "Item": "Laxmipati Mogar Yellow Moong Dal",
+    "mrp": 120,
+    "discount": 49,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5142",
+    "Quantity": "500gm",
+    "Price": 71
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f7ee43958d43.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f7ee43958d43.jpg",
+    "Category": "Dals",
+    "Item": "Angur Toor Dal Oily",
+    "mrp": 640,
+    "discount": 61,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5148",
+    "Quantity": "5Kg",
+    "Price": 579
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591aee0e18d.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591aee0e18d.jpg",
+    "Category": "Dals",
+    "Item": "Laxmi Toor Dal Oily",
+    "mrp": 120,
+    "discount": 18,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5150",
+    "Quantity": "1Kg",
+    "Price": 102
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591af049e14.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591af049e14.jpg",
+    "Category": "Dals",
+    "Item": "Laxmipati Split Arhar Dal/Toor Dal",
+    "mrp": 64,
+    "discount": 9,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5154",
+    "Quantity": "500gm",
+    "Price": 55
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591af1797b4.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591af1797b4.jpg",
+    "Category": "Dals",
+    "Item": "Toor Dal Oily",
+    "mrp": 70,
+    "discount": 9,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5156",
+    "Quantity": "500gm",
+    "Price": 61
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591af1797b4.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591af1797b4.jpg",
+    "Category": "Dals",
+    "Item": "Toor Dal Oily",
+    "mrp": 140,
+    "discount": 26,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5156",
+    "Quantity": "1Kg",
+    "Price": 114
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591af2927cd.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591af2927cd.jpg",
+    "Category": "Dals",
+    "Item": "Toor Dal Dry/Kori",
+    "mrp": 80,
+    "discount": 29,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5158",
+    "Quantity": "500gm",
+    "Price": 51
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591af2927cd.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591af2927cd.jpg",
+    "Category": "Dals",
+    "Item": "Toor Dal Dry/Kori",
+    "mrp": 160,
+    "discount": 49,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5158",
+    "Quantity": "1Kg",
+    "Price": 111
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591af62a642.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591af62a642.jpg",
+    "Category": "Dals",
+    "Item": "Urad Dal",
+    "mrp": 84,
+    "discount": 25,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5164",
+    "Quantity": "500gm",
+    "Price": 59
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591af62a642.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591af62a642.jpg",
+    "Category": "Dals",
+    "Item": "Urad Dal",
+    "mrp": 150,
+    "discount": 35,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5164",
+    "Quantity": "1Kg",
+    "Price": 115
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591af73a5df.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591af73a5df.jpg",
+    "Category": "Dals",
+    "Item": "Laxmipati Split White Urad Dal",
+    "mrp": 84,
+    "discount": 23,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5166",
+    "Quantity": "500gm",
+    "Price": 61
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f5243a2233fa.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f5243a2233fa.jpg",
+    "Category": "Pulses",
+    "Item": "Nutrela Soya Chunks",
+    "mrp": 45,
+    "discount": 5,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=978",
+    "Quantity": "200gm",
+    "Price": 40
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591af84860b.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591af84860b.jpg",
+    "Category": "Pulses",
+    "Item": "Tata Sampann Kala Chana",
+    "mrp": 74,
+    "discount": 25,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5168",
+    "Quantity": "500gm",
+    "Price": 49
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591afa5c38f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591afa5c38f.jpg",
+    "Category": "Pulses",
+    "Item": "Desi Chana",
+    "mrp": 60,
+    "discount": 21,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5172",
+    "Quantity": "500gm",
+    "Price": 39
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591afa5c38f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591afa5c38f.jpg",
+    "Category": "Pulses",
+    "Item": "Desi Chana",
+    "mrp": 120,
+    "discount": 45,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5172",
+    "Quantity": "1Kg",
+    "Price": 75
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591afc13fa6.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591afc13fa6.jpg",
+    "Category": "Pulses",
+    "Item": "Moong Whole",
+    "mrp": 100,
+    "discount": 50,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5176",
+    "Quantity": "500gm",
+    "Price": 50
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591afc13fa6.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591afc13fa6.jpg",
+    "Category": "Pulses",
+    "Item": "Moong Whole",
+    "mrp": 180,
+    "discount": 85,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5176",
+    "Quantity": "1Kg",
+    "Price": 95
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591afd7b43f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591afd7b43f.jpg",
+    "Category": "Pulses",
+    "Item": "Laxmipati Whole Green Moong",
+    "mrp": 90,
+    "discount": 25,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5178",
+    "Quantity": "500gm",
+    "Price": 65
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591afe823ef.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591afe823ef.jpg",
+    "Category": "Pulses",
+    "Item": "Tata Sampann Unpolished Green Moong",
+    "mrp": 93,
+    "discount": 13,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5180",
+    "Quantity": "500gm",
+    "Price": 80
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b008c32d.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b008c32d.jpg",
+    "Category": "Pulses",
+    "Item": "Mini Rajma",
+    "mrp": 70,
+    "discount": 15,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5184",
+    "Quantity": "500gm",
+    "Price": 55
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b008c32d.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b008c32d.jpg",
+    "Category": "Pulses",
+    "Item": "Mini Rajma",
+    "mrp": 140,
+    "discount": 41,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5184",
+    "Quantity": "1Kg",
+    "Price": 99
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b019142c.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b019142c.jpg",
+    "Category": "Pulses",
+    "Item": "Laxmipati Red Rajma",
+    "mrp": 70,
+    "discount": 10,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5186",
+    "Quantity": "500gm",
+    "Price": 60
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f7588954ea3f.png",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f7588954ea3f.png",
+    "Category": "Pulses",
+    "Item": "Laxmipati Kabuli Chana",
+    "mrp": 95,
+    "discount": 46,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5691",
+    "Quantity": "500gm",
+    "Price": 49
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/5f5b2a695fe41.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/5f5b2a695fe41.jpg",
+    "Category": "Whole Spices",
+    "Item": "Vasant Methi Seeds",
+    "mrp": 27,
+    "discount": 2,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5342",
+    "Quantity": "200gm",
+    "Price": 25
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b56899c8.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b56899c8.jpg",
+    "Category": "Whole Spices",
+    "Item": "Methi",
+    "mrp": 99,
+    "discount": 64,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5344",
+    "Quantity": "250gm",
+    "Price": 35
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b578da1e.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b578da1e.jpg",
+    "Category": "Whole Spices",
+    "Item": "Whole Red Chilli",
+    "mrp": 100,
+    "discount": 25,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5346",
+    "Quantity": "250gm",
+    "Price": 75
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b5a8230e.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b5a8230e.jpg",
+    "Category": "Whole Spices",
+    "Item": "Rai Mustard Seeds",
+    "mrp": 45,
+    "discount": 19,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5348",
+    "Quantity": "250gm",
+    "Price": 26
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b5ca95ab.png",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b5ca95ab.png",
+    "Category": "Whole Spices",
+    "Item": "Charoli",
+    "mrp": 100,
+    "discount": 15,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5352",
+    "Quantity": "50gm",
+    "Price": 85
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f591b5ed4e1e.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f591b5ed4e1e.jpg",
+    "Category": "Whole Spices",
+    "Item": "Jeera Whole",
+    "mrp": 150,
+    "discount": 45,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=5356",
+    "Quantity": "500gm",
+    "Price": 105
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f78700f11faa.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f78700f11faa.jpg",
+    "Category": "Whole Spices",
+    "Item": "Methi Seeds Whole",
+    "mrp": 55,
+    "discount": 26,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6713",
+    "Quantity": "250gm",
+    "Price": 29
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f78700feee40.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f78700feee40.jpg",
+    "Category": "Whole Spices",
+    "Item": "Coriander Seeds Whole",
+    "mrp": 65,
+    "discount": 20,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6715",
+    "Quantity": "250gm",
+    "Price": 45
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f787010e09d2.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f787010e09d2.jpg",
+    "Category": "Whole Spices",
+    "Item": "Whole Jeera",
+    "mrp": 150,
+    "discount": 45,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6717",
+    "Quantity": "500gm",
+    "Price": 105
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f7870120d2a6.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f7870120d2a6.jpg",
+    "Category": "Whole Spices",
+    "Item": "Shole Shahi Jeera",
+    "mrp": 250,
+    "discount": 31,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6719",
+    "Quantity": "250gm",
+    "Price": 219
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f787013393cd.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f787013393cd.jpg",
+    "Category": "Whole Spices",
+    "Item": "Mustard Seeds Medium",
+    "mrp": 45,
+    "discount": 19,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6721",
+    "Quantity": "250gm",
+    "Price": 26
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f7870142399f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f7870142399f.jpg",
+    "Category": "Whole Spices",
+    "Item": "Black Pepperwhole",
+    "mrp": 100,
+    "discount": 21,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6723",
+    "Quantity": "100gm",
+    "Price": 79
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f787015450a6.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f787015450a6.jpg",
+    "Category": "Whole Spices",
+    "Item": "Poppy Seeds / Khus Khus",
+    "mrp": 200,
+    "discount": 51,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6725",
+    "Quantity": "100gm",
+    "Price": 149
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f78701622e56.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f78701622e56.jpg",
+    "Category": "Whole Spices",
+    "Item": "Ajwain Seeds",
+    "mrp": 150,
+    "discount": 45,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6727",
+    "Quantity": "250gm",
+    "Price": 105
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f7870175aa06.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f7870175aa06.jpg",
+    "Category": "Whole Spices",
+    "Item": "White Til",
+    "mrp": 75,
+    "discount": 26,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6729",
+    "Quantity": "250gm",
+    "Price": 49
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f78701860b6f.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f78701860b6f.jpg",
+    "Category": "Whole Spices",
+    "Item": "Black Til",
+    "mrp": 110,
+    "discount": 25,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6731",
+    "Quantity": "250gm",
+    "Price": 85
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f787019837f2.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f787019837f2.jpg",
+    "Category": "Whole Spices",
+    "Item": "Cinnaamon Stick",
+    "mrp": 250,
+    "discount": 101,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6733",
+    "Quantity": "100gm",
+    "Price": 149
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f78701a66c3b.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f78701a66c3b.jpg",
+    "Category": "Whole Spices",
+    "Item": "Citric Acid / Nimbu Phool",
+    "mrp": 30,
+    "discount": 15,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6735",
+    "Quantity": "50gm",
+    "Price": 15
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f78701b468b6.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f78701b468b6.jpg",
+    "Category": "Whole Spices",
+    "Item": "Mustard Rai / Skinless Broked Mustard",
+    "mrp": 45,
+    "discount": 19,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6737",
+    "Quantity": "250gm",
+    "Price": 26
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f78701c3b7d9.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f78701c3b7d9.jpg",
+    "Category": "Whole Spices",
+    "Item": "Black Elaichi Big",
+    "mrp": 250,
+    "discount": 115,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6739",
+    "Quantity": "100gm",
+    "Price": 135
+  },
+  {
+
+    "Website": "Frendy",
+    "City": "Ahmedabad",
+    "img": "products/frendy5f78701d1cc88.jpg",
+    "img_url": "https://cdn2production.frendy.in/products/frendy5f78701d1cc88.jpg",
+    "Category": "Whole Spices",
+    "Item": "Whole Cloves",
+    "mrp": 150,
+    "discount": 55,
+    "item_url": "https://shop.frendy.in/#/product-detail?productId=6741",
+    "Quantity": "100gm",
+    "Price": 95
+  }
+]
+}

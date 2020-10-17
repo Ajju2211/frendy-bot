@@ -39,4 +39,11 @@ from utils import indexPages as inP
     # f = FAQ("controllers/faqs/test_faq.csv")
     # print(f.ask_faq("what naaniz"))
 
+# from controllers.posters.post_gen import *
+# import json
+# with open("controllers\posters\csvjson.json","r") as f:
+# 	groceries = json.load(f)
+# data = groceries["data"]
+# res = makeCards(data)
+
 

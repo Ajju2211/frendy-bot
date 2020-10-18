@@ -52,7 +52,7 @@ def greet_back(dispatcher):
     dispatcher.utter_message(json_message = {
         "platform":"whatsapp",
         "payload":"text",
-        "text":"Welcome back Frendy shopping."
+        "text":"👋👋👋 Welcome back Frendy shopping."
     });
     return [UserUttered(text="/greet", parse_data={
         "intent": {"confidence": 1.0, "name": "greet"},
@@ -133,10 +133,10 @@ class FaqForm(FormAction):
             dispatcher.utter_message(json_message = {
                 "platform":"whatsapp",
                 "payload":"text",
-                "text":"How shoud we get your FAQ?. \n \
-                \x2A1\x2A to choose from our set of Faqs \n \
-                \x2A2\x2A to type on your own!.\n \
-                type \x2Aback\x2A otherwise"
+                "text": "🧐 How shoud we get your FAQ?. \n \
+                1️⃣  to choose from our set of Faqs \
+                2️⃣  to type on your own!.\n \
+                type \x2A\backx2A otherwise"
             })
 
             return {
@@ -151,11 +151,11 @@ class FaqForm(FormAction):
             }
 
         else:
-            dispatcher.utter_message(text="Please type valid option")
+            dispatcher.utter_message(text="Please type valid option 🔢")
             dispatcher.utter_message(json_message = {
                 "platform":"whatsapp",
                 "payload":"text",
-                "text":"Please type valid option"
+                "text":"Please type valid option 🔢"
             });
             return {
                 "faq_choice": None,
@@ -194,14 +194,14 @@ class FaqForm(FormAction):
                     dispatcher.utter_message(json_message = {
                         "platform":"whatsapp",
                         "payload":"text",
-                        "text":"Your Question :{}\n Answer:{}".format(ques, ans)
+                        "text":"Your Query 👉 \x2A{}\x2A \n Answer 👉 \x2A{}\x2A".format(ques, ans)
                     });
                 else:
                     dispatcher.utter_message("Query not found !")
                     dispatcher.utter_message(json_message = {
                         "platform":"whatsapp",
                         "payload":"text",
-                        "text":"Query not found"
+                        "text":"Query not found 🤷‍♂️"
                     });
                 return {"faq_choice": faq_choice, "faq_text": None}
             else:

@@ -59,7 +59,7 @@ def greet_back(dispatcher):
     dispatcher.utter_message(json_message = {
     "platform":"whatsapp",
     "payload":"text",
-    "text":"Welcome back to Fredy Shopping."
+    "text":"👋👋👋 Welcome back to Fredy Shopping."
     })
     return [UserUttered(text="/greet", parse_data={
         "intent": {"confidence": 1.0, "name": "greet"},
@@ -167,7 +167,7 @@ class OrderForm(FormAction):
                     dispatcher.utter_message(json_message = {
                     "platform":"whatsapp",
                     "payload":"text",
-                    "text":"Type \x2ABack\x2A otherwise."
+                    "text":"Please select the category Type \x2ABack\x2A otherwise."
                     })
                     self.askCategories(dispatcher)
                 elif slot == 'product_name':
@@ -246,8 +246,8 @@ class OrderForm(FormAction):
                 "payload":"image",
                 "data":[
                     {
-                    "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg?size=664&ext=jpg&ga=GA1.2.2138941491.1602861868",
-                    "text":"select product from above"
+                    "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg",
+                    "text":"👆select product from above"
                     }]
             })
             dispatcher.utter_message(json_message={
@@ -256,11 +256,11 @@ class OrderForm(FormAction):
                 "text":"type \x2Aback\x2A otherwise"
             })
         except:
-            dispatcher.utter_message(text="No such Category Found")
+            dispatcher.utter_message(text="No such Category Found 🤷‍♂️")
             dispatcher.utter_message(json_message={
                 "platform":"whatsapp",
                 "payload":"text",
-                "text":"No such Category Found \n \
+                "text":"No such Category Found 🤷‍♂️ \n \
                  type \x2Aback\x2A otherwise"
             })
             raise Exception("No such Category")
@@ -287,7 +287,7 @@ class OrderForm(FormAction):
             "platform":"whatsapp",
             "payload":"image",
             "data": [{
-                "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg?size=664&ext=jpg&ga=GA1.2.2138941491.1602861868"
+                "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg"
             }]
         })
 
@@ -357,7 +357,7 @@ class OrderForm(FormAction):
                             dispatcher.utter_message(json_message = {
                             "platform":"whatsapp",
                             "payload":"text",
-                            "text":"it costs {}".format(j['price'])
+                            "text":"it costs \x2A{}\x2A".format(j['price'])
                             })
                             return {"product_name": product_name}
                         else:
@@ -368,15 +368,15 @@ class OrderForm(FormAction):
                     dispatcher.utter_message(json_message = {
                     "platform":"whatsapp",
                     "payload":"text",
-                    "text":"Sorry we are not selling '"+product_name+"'"
+                    "text":"Sorry we are not selling \x2A"+product_name.upper()+"\x2A"
                     })
                     return {"product_name": None}
                 else:
-                    dispatcher.utter_message(text="No such category found")
+                    dispatcher.utter_message(text="No such category found 🤷‍♂️")
                     dispatcher.utter_message(json_message = {
                     "platform":"whatsapp",
                     "payload":"text",
-                    "text":"No such category found!"
+                    "text":"No such category found! 🤷‍♂️"
                     })
 
         # if product_name in dataset.keys():
@@ -409,7 +409,7 @@ class OrderForm(FormAction):
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Please enter valid number"
+            "text":"Please enter valid number🔢"
             })
             return {"product_name": product_name, "quantity": None}
 
@@ -502,11 +502,11 @@ class OrderForm(FormAction):
                 # dispatcher.utter_message("{} : {} : {}".format(x['product'],x["quantity"],total))
                 # amount += total
             self.showCart(dispatcher, tracker)
-            dispatcher.utter_message("Total Amount : {}".format(amount))
+            dispatcher.utter_message("Total Amount : {} ₹".format(amount))
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Total Amount : {} \n Thanks for ordering".format(amount)
+            "text":"Total Amount : \x2A{}\x2A \x2A₹\x2A \n Thanks for ordering \n 🙏🙏🙏".format(amount)
             });
-            dispatcher.utter_message("Thanks for ordering")
+            dispatcher.utter_message("Thanks for ordering 🙏🙏🙏")
             return [AllSlotsReset()]

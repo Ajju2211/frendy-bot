@@ -60,7 +60,7 @@
 #     ) -> List[Dict[Text, Any]]:
 #         meta = get_latest_metadata(tracker)
 
-#         if meta.user.auth:
+#         if meta.user.given_info:
 #             return [
 #                 SlotSet("username", INVALID_VALUE),
 #                 SlotSet("mailid", INVALID_VALUE),
@@ -69,3 +69,4 @@
 #                 SlotSet("locality", INVALID_VALUE),
 #                 SlotSet("pincode", INVALID_VALUE)
 #             ]
+#             return []

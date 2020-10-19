@@ -166,7 +166,7 @@ class OrderRatingForm(FormAction):
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Please type rating in between \x2A1-5\x2A"
+            "text":"Please type rating from 1️⃣-5️⃣"
             })
             return {"order_rating": None, REQUESTED_SLOT: "order_rating"}
 
@@ -186,7 +186,7 @@ class OrderRatingForm(FormAction):
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Thank you, your review has been submitted!"
+            "text":"🙂 Thank you, your review has been submitted!"
             })
             # return {"give_rating": None, "order_rating": None}
             return [SlotSet("give_rating", None), SlotSet("order_rating", None)]
@@ -197,7 +197,7 @@ class OrderRatingForm(FormAction):
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Thanks for ordering with us Your order will be delivered shortly, \n \
+            "text":"🙂 Thanks for ordering with us Your order will be delivered shortly, \n \
                 track your order from the Frendy App."
             })
             return [SlotSet("give_rating", None), SlotSet("order_rating", None)]

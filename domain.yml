@@ -82,7 +82,7 @@ responses:
         platform: whatsapp
         payload: text
         text: "Please Describe your complain 📬.\n \
-        type \x2A\back\x2A otherwise"
+        type ↩️ \x2Aback\x2A otherwise"
   utter_ask_complain_type:
     -
       buttons:
@@ -110,7 +110,7 @@ responses:
          2️⃣ Delivery 🚚 \n \
          3️⃣ Frendy App 🌐 \n \
          4️⃣ Other \n \
-        type 5️⃣ \x2Aback\x2A otherwise"
+        type 5️⃣ ↩️ \x2Aback\x2A otherwise"
   utter_ask_confirm:
     -
       buttons:
@@ -142,7 +142,7 @@ responses:
         text: "🧐 How shoud we get your FAQ?. \n \
         1️⃣  to choose from our set of Faqs \
         2️⃣  to type on your own!.\n \
-        type \x2A\back\x2A otherwise"
+        type ↩️ \x2Aback\x2A otherwise"
 
   utter_ask_faq_text:
     -
@@ -155,7 +155,7 @@ responses:
         platform: whatsapp
         payload: text
         text: "Please type your question. ❓ \n \
-        type \x2A\back\x2A otherwise"
+        type ↩️ \x2Aback\x2A otherwise"
   utter_ask_feedback_text:
     -
       text: "Please enter your feedback. ✍️📋"
@@ -167,7 +167,7 @@ responses:
         platform: whatsapp
         payload: text
         text: "Please give us your feedback. ✍️📋 \n 
-        type \x2A\back\x2A otherwise"
+        type ↩️ \x2Aback\x2A otherwise"
 
   utter_ask_proceed:
     -
@@ -195,8 +195,8 @@ responses:
         1️⃣ \x2AAdd to cart\x2A 🛒 \n \
         2️⃣ \x2ABuy now\x2A 💰 🚚\n \
         3️⃣ \x2ASelect other product item\x2A 🧺 \n \
-        4️⃣ \x2ASwitch category\x2A \n \ 
-        5️⃣ \x2AChange quantity\x2A 🔢 \n"
+        4️⃣ \x2AChange category\x2A \n \
+      5️⃣ \x2AChange quantity\x2A 🔢 \n"
   utter_ask_quantity:
     -
       text: "Please enter the quantity 🔢"
@@ -204,7 +204,7 @@ responses:
         platform: whatsapp
         payload: text
         text: "Please Enter quantity. 🔢\n \
-        type \x2Aback\x2A \n otherwise"
+        type ↩️ \x2Aback\x2A \n otherwise"
   utter_ask_rating:
     -
       buttons:
@@ -231,7 +231,7 @@ responses:
         platform: whatsapp
         payload: text
         text: "Please rate your experince out of 5️⃣ ⭐⭐⭐⭐⭐\n \
-        type \x2Aback\x2A \n otherwise"
+        type ↩️ \x2Aback\x2A \n otherwise"
 
 
   utter_goodbye:
@@ -325,8 +325,7 @@ responses:
         payload: text
         text: "What kind of query is it? 😕❓ \n \
         \x2AFeedback\x2A  \n \
-        \x2AComplaint\x2A 📬 \n \
-        \x2AFaq\x2A \n"
+        \x2AComplaint\x2A 📬 "
 
 
   utter_ask_username:
@@ -348,8 +347,8 @@ responses:
       custom: 
         platform: whatsapp
         payload: text
-        text: "Please enter your valid maild id!.\n \
-        type \x2Aback\x2A \n otherwise"
+        text: "Please enter your valid maild id 📧 .\n \
+        type ↩️ \x2Aback\x2A \n otherwise"
 
   utter_ask_phone_number:
     -
@@ -362,7 +361,7 @@ responses:
         platform: whatsapp
         payload: text
         text: "Please enter your alternate phone number.📞\n \
-        type \x2Aback\x2A\n otherwise"
+        type ↩️ \x2Aback\x2A\n otherwise"
 
   utter_ask_pincode:
     -
@@ -375,7 +374,7 @@ responses:
         platform: whatsapp
         payload: text
         text: "Please enter your Pin/Zip code.📮\n \
-        type \x2Aback\x2A \n otherwise"
+        type ↩️ \x2Aback\x2A \n otherwise"
 
 
   utter_ask_locality:
@@ -389,7 +388,7 @@ responses:
         platform: whatsapp
         payload: text
         text: "Please enter your Locality. 🏙️\n \
-        type \x2Aback\x2A \n otherwise"
+        type ↩️ \x2Aback\x2A \n otherwise"
 
   utter_ask_state:
     -
@@ -402,7 +401,7 @@ responses:
         platform: whatsapp
         payload: text
         text: "Please enter your State.🗾\n \
-        type \x2Aback\x2A \n otherwise"
+        type ↩️ \x2Aback\x2A \n otherwise"
 
 
 session_config:

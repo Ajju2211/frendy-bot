@@ -1,0 +1,1578 @@
+<TwilioResponse>
+    <Messages end="49" firstpageuri="/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages?PageSize=50&Page=0;" nextpageuri="/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages?PageSize=50&Page=1&PageToken=PASMc8818486dff58d51812dfe6ed5e15f89" page="0" pagesize="50" previouspageuri="" start="0" uri="/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages?PageSize=50amp;&Page=0;">
+        <Message>
+            <Body>Hi</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+917997289947</From>
+            <DateUpdated>Sun, 18 Oct 2020 03:50:21 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri></Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sun, 18 Oct 2020 03:50:21 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM35ebb3b74733c976203186147d96a16d</Sid>
+            <DateSent>Sun, 18 Oct 2020 03:50:21 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM35ebb3b74733c976203186147d96a16d/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM35ebb3b74733c976203186147d96a16d/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>* az*</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:35:00 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM544a19795df7d23bd4eeb775f1b48656
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:34:44 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM544a19795df7d23bd4eeb775f1b48656</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:35:00 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM544a19795df7d23bd4eeb775f1b48656/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM544a19795df7d23bd4eeb775f1b48656/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>*hbh</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:33:26 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM2935c104a786359cff970a7868129f37
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:33:20 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM2935c104a786359cff970a7868129f37</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:33:26 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM2935c104a786359cff970a7868129f37/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM2935c104a786359cff970a7868129f37/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:32:34 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMcc709d97448de5609df6f1f00b58aaf3
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:32:19 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMcc709d97448de5609df6f1f00b58aaf3</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:32:34 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMcc709d97448de5609df6f1f00b58aaf3/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMcc709d97448de5609df6f1f00b58aaf3/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>naaniz</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:29:27 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM990ee5ef9047fe3aa5d10a10de5135e7
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:29:12 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM990ee5ef9047fe3aa5d10a10de5135e7</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:29:27 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM990ee5ef9047fe3aa5d10a10de5135e7/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM990ee5ef9047fe3aa5d10a10de5135e7/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>2</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:27:55 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM286574f8c541192ad74f08bab62d3edd
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:27:48 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM286574f8c541192ad74f08bab62d3edd</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:27:55 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM286574f8c541192ad74f08bab62d3edd/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM286574f8c541192ad74f08bab62d3edd/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>faq</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:27:17 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM564e77a307ab95c1d33fdff14ca6cecd
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:27:11 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM564e77a307ab95c1d33fdff14ca6cecd</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:27:17 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM564e77a307ab95c1d33fdff14ca6cecd/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM564e77a307ab95c1d33fdff14ca6cecd/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>back</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:26:01 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM9c0ec0efd8dcfed8ae1ffed1ee7f54e6
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:25:46 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM9c0ec0efd8dcfed8ae1ffed1ee7f54e6</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:26:01 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM9c0ec0efd8dcfed8ae1ffed1ee7f54e6/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM9c0ec0efd8dcfed8ae1ffed1ee7f54e6/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>faq</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:25:10 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM80a007e05a3839840b778d0d9f5227b9
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:25:04 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM80a007e05a3839840b778d0d9f5227b9</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:25:10 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM80a007e05a3839840b778d0d9f5227b9/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM80a007e05a3839840b778d0d9f5227b9/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+Welcome to the frendy bot:- *Order product* *Query* 😕❓ *Faq*
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:25:00 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMdabd8b8930e4957fa783219cf4b0dc6b
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:24:58 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SMdabd8b8930e4957fa783219cf4b0dc6b</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:24:59 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMdabd8b8930e4957fa783219cf4b0dc6b/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMdabd8b8930e4957fa783219cf4b0dc6b/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>hi</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:24:58 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM0b358b0a40dd201ad48fd88aabc9e568
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:24:55 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM0b358b0a40dd201ad48fd88aabc9e568</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:24:58 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM0b358b0a40dd201ad48fd88aabc9e568/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM0b358b0a40dd201ad48fd88aabc9e568/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+Your Complaint : Complaint Area:delivery Complaint: 'azaz' has been registered!
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:24:47 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM33825214219ff7a3ec55ce531b941a95
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:24:40 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM33825214219ff7a3ec55ce531b941a95</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:24:41 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM33825214219ff7a3ec55ce531b941a95/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM33825214219ff7a3ec55ce531b941a95/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>azaz</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:24:41 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM5140bb6e5c13ffdf78c7b95838f9f487
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:24:30 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM5140bb6e5c13ffdf78c7b95838f9f487</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:24:41 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM5140bb6e5c13ffdf78c7b95838f9f487/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM5140bb6e5c13ffdf78c7b95838f9f487/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>aaaaaaaaaaaaaaaaa</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:17:54 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMb510bcbc0aaea8e1a90848288d05cfa6
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:17:39 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMb510bcbc0aaea8e1a90848288d05cfa6</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:17:54 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMb510bcbc0aaea8e1a90848288d05cfa6/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMb510bcbc0aaea8e1a90848288d05cfa6/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>delivery</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:16:12 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM9ccf383329b730a72fcacbf357b52792
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:16:06 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM9ccf383329b730a72fcacbf357b52792</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:16:12 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM9ccf383329b730a72fcacbf357b52792/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM9ccf383329b730a72fcacbf357b52792/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>back</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:15:54 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa934878fa56309404433991043492bef
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:15:39 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMa934878fa56309404433991043492bef</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:15:54 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa934878fa56309404433991043492bef/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa934878fa56309404433991043492bef/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>delivery</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:14:19 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM88b270c9121c84ffdc28878be6bf534f
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:14:13 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM88b270c9121c84ffdc28878be6bf534f</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:14:19 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM88b270c9121c84ffdc28878be6bf534f/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM88b270c9121c84ffdc28878be6bf534f/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+What is your complaint regarding?📬 1️⃣ product quality ✨ 2️⃣ Delivery 🚚 3️⃣ Frendy App 🌐 4️⃣ Other type 5️⃣ *back* otherwise
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:14:11 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM59cffb328edc6eff148d72427652f9bb
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:14:09 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM59cffb328edc6eff148d72427652f9bb</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:14:09 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM59cffb328edc6eff148d72427652f9bb/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM59cffb328edc6eff148d72427652f9bb/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>please type valid option.</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:14:10 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM873949182bc97f2d899e26d72003fa65
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:14:09 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM873949182bc97f2d899e26d72003fa65</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:14:09 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM873949182bc97f2d899e26d72003fa65/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM873949182bc97f2d899e26d72003fa65/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>delivery app</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:14:09 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM5eeda3622e87e5450e3873dbdf6e0e69
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:14:02 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM5eeda3622e87e5450e3873dbdf6e0e69</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:14:09 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM5eeda3622e87e5450e3873dbdf6e0e69/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM5eeda3622e87e5450e3873dbdf6e0e69/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+What is your complaint regarding?📬 1️⃣ product quality ✨ 2️⃣ Delivery 🚚 3️⃣ Frendy App 🌐 4️⃣ Other type 5️⃣ *back* otherwise
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:13:47 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM10a83c0ea5d4dc01dbf34838a3906c7f
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:13:44 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM10a83c0ea5d4dc01dbf34838a3906c7f</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:13:45 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM10a83c0ea5d4dc01dbf34838a3906c7f/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM10a83c0ea5d4dc01dbf34838a3906c7f/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>complaint</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:13:44 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM301b11ed680abc841492adfca78cc974
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:13:38 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM301b11ed680abc841492adfca78cc974</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:13:44 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM301b11ed680abc841492adfca78cc974/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM301b11ed680abc841492adfca78cc974/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+What kind of query is it? 😕❓ *Feedback* *Complaint* 📬 *Faq*
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:13:30 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM15a983ccfa485de4c2d10a79732b2068
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:13:19 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM15a983ccfa485de4c2d10a79732b2068</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:13:20 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM15a983ccfa485de4c2d10a79732b2068/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM15a983ccfa485de4c2d10a79732b2068/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>query</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:13:19 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM7bdeb911f3ecf4cfaaa2136aa546cd71
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:13:15 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM7bdeb911f3ecf4cfaaa2136aa546cd71</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:13:19 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM7bdeb911f3ecf4cfaaa2136aa546cd71/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM7bdeb911f3ecf4cfaaa2136aa546cd71/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+Welcome to the frendy bot:- *Order product* *Query* 😕❓ *Faq*
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:13:04 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMf19c3c54800eaccaf021ca9d9816a938
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:57 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SMf19c3c54800eaccaf021ca9d9816a938</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:57 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMf19c3c54800eaccaf021ca9d9816a938/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMf19c3c54800eaccaf021ca9d9816a938/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>👋👋👋 Welcome back to Fredy Shopping.</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:13:04 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM38eb78c830e775e4f2b9ee8d8d3dc7a3
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:57 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM38eb78c830e775e4f2b9ee8d8d3dc7a3</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:57 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM38eb78c830e775e4f2b9ee8d8d3dc7a3/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM38eb78c830e775e4f2b9ee8d8d3dc7a3/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>back</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:12:57 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMbd236c8eae334c58772bd4beb95fb733
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:50 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMbd236c8eae334c58772bd4beb95fb733</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:57 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMbd236c8eae334c58772bd4beb95fb733/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMbd236c8eae334c58772bd4beb95fb733/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+Select categories from below :- *furniture* *Electronics* *Stationery*
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:12:40 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM6d1db975d5be3d36044d4f41714723fa
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:39 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM6d1db975d5be3d36044d4f41714723fa</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:39 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM6d1db975d5be3d36044d4f41714723fa/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM6d1db975d5be3d36044d4f41714723fa/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>Please select the category Type *Back* otherwise.</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:12:41 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM06556362469945953a12b8c72d38c70a
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:38 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM06556362469945953a12b8c72d38c70a</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:39 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM06556362469945953a12b8c72d38c70a/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM06556362469945953a12b8c72d38c70a/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body />
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:12:49 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/MM4dd0b84d13e42d0b77c4af6ce68c5f05
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>1</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:38 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>MM4dd0b84d13e42d0b77c4af6ce68c5f05</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:39 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/MM4dd0b84d13e42d0b77c4af6ce68c5f05/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/MM4dd0b84d13e42d0b77c4af6ce68c5f05/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body />
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:12:49 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/MM648cb2e88851bc340c4207ed14f24c03
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>1</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:38 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>MM648cb2e88851bc340c4207ed14f24c03</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:39 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/MM648cb2e88851bc340c4207ed14f24c03/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/MM648cb2e88851bc340c4207ed14f24c03/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>order</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:12:39 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMe9d6fbd617d1b295e044371d525f4452
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:29 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMe9d6fbd617d1b295e044371d525f4452</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:39 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMe9d6fbd617d1b295e044371d525f4452/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMe9d6fbd617d1b295e044371d525f4452/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+Welcome to the frendy bot:- *Order product* *Query* 😕❓ *Faq*
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:12:18 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM1d5027e8ce484c5f3cef3fdc335c2954
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:08 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM1d5027e8ce484c5f3cef3fdc335c2954</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:08 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM1d5027e8ce484c5f3cef3fdc335c2954/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM1d5027e8ce484c5f3cef3fdc335c2954/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>hi</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:12:08 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa6242f7281e144905b053c5fbf45774f
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:12:04 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMa6242f7281e144905b053c5fbf45774f</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:12:08 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa6242f7281e144905b053c5fbf45774f/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa6242f7281e144905b053c5fbf45774f/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>/restart</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:11:54 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa88bd18eb490b613a64d818a24c08225
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:11:50 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMa88bd18eb490b613a64d818a24c08225</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:11:54 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa88bd18eb490b613a64d818a24c08225/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa88bd18eb490b613a64d818a24c08225/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>hi</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:10:47 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM2811a579e888d82b677a41c20cb76481
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:10:32 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM2811a579e888d82b677a41c20cb76481</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:10:47 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM2811a579e888d82b677a41c20cb76481/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM2811a579e888d82b677a41c20cb76481/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>hi</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:09:39 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMd7bcd3e4de5ce1c450af6a28204644c7
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:09:24 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMd7bcd3e4de5ce1c450af6a28204644c7</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:09:39 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMd7bcd3e4de5ce1c450af6a28204644c7/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMd7bcd3e4de5ce1c450af6a28204644c7/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>/restart</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:09:36 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM7c86cb9ece0d1969bbe79c80c9e7593d
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:09:21 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM7c86cb9ece0d1969bbe79c80c9e7593d</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:09:36 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM7c86cb9ece0d1969bbe79c80c9e7593d/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM7c86cb9ece0d1969bbe79c80c9e7593d/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>*azz</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 20:08:55 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM4f43eefdc382d8623debedf4c350f2dc
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 20:08:40 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM4f43eefdc382d8623debedf4c350f2dc</Sid>
+            <DateSent>Sat, 17 Oct 2020 20:08:55 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM4f43eefdc382d8623debedf4c350f2dc/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM4f43eefdc382d8623debedf4c350f2dc/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>some changes need to do</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:56:22 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa062b5154f96baea9a6ba5de1cf73380
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 19:56:07 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMa062b5154f96baea9a6ba5de1cf73380</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:56:22 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa062b5154f96baea9a6ba5de1cf73380/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMa062b5154f96baea9a6ba5de1cf73380/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>4</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:52:16 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM384c3db16092afa3731ab9742379a06c
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 19:52:10 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM384c3db16092afa3731ab9742379a06c</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:52:16 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM384c3db16092afa3731ab9742379a06c/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM384c3db16092afa3731ab9742379a06c/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+Please rate your experince out of 5️⃣ ⭐⭐⭐⭐⭐ type *Back* otherwise
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:52:08 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM327510f0c89d341aea476ac574e76887
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 19:52:02 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM327510f0c89d341aea476ac574e76887</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:52:02 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM327510f0c89d341aea476ac574e76887/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM327510f0c89d341aea476ac574e76887/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>back</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:52:02 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMd9e1ea7fad03ca367434acbb577271ca
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 19:51:55 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMd9e1ea7fad03ca367434acbb577271ca</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:52:02 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMd9e1ea7fad03ca367434acbb577271ca/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMd9e1ea7fad03ca367434acbb577271ca/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>5</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:50:50 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM01d290157ca99dd1734502fd1b2a46f7
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 19:50:43 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SM01d290157ca99dd1734502fd1b2a46f7</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:50:50 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM01d290157ca99dd1734502fd1b2a46f7/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM01d290157ca99dd1734502fd1b2a46f7/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+Please rate your experince out of 5️⃣ ⭐⭐⭐⭐⭐ type *Back* otherwise
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:50:23 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMaed39544643d1ccabde03f4f42332d71
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 19:50:21 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SMaed39544643d1ccabde03f4f42332d71</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:50:21 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMaed39544643d1ccabde03f4f42332d71/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMaed39544643d1ccabde03f4f42332d71/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>feedback</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:50:21 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMd822645065ef427a7f292904438989a9
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 19:50:14 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMd822645065ef427a7f292904438989a9</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:50:21 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMd822645065ef427a7f292904438989a9/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMd822645065ef427a7f292904438989a9/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+What kind of query is it? 😕❓ *Feedback* *Complaint* 📬 *Faq*
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:49:57 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM3b99257c6f2a6004790edb9891dbb9f2
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 19:49:54 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM3b99257c6f2a6004790edb9891dbb9f2</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:49:55 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM3b99257c6f2a6004790edb9891dbb9f2/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM3b99257c6f2a6004790edb9891dbb9f2/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>query</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:49:55 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMab8e0483e0b69fa5ed5bb2e7f98489d4
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 19:49:50 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMab8e0483e0b69fa5ed5bb2e7f98489d4</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:49:55 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMab8e0483e0b69fa5ed5bb2e7f98489d4/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMab8e0483e0b69fa5ed5bb2e7f98489d4/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>
+Welcome to the frendy bot:- *Order product* *Query* 😕❓ *Faq*
+</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>outbound-reply</Direction>
+            <From>whatsapp:+14155238886</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:49:27 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM4c73a7b4a9b95565c3c927d2593cdc7d
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+918668769415</To>
+            <DateCreated>Sat, 17 Oct 2020 19:49:25 +0000</DateCreated>
+            <Status>read</Status>
+            <Sid>SM4c73a7b4a9b95565c3c927d2593cdc7d</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:49:26 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM4c73a7b4a9b95565c3c927d2593cdc7d/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SM4c73a7b4a9b95565c3c927d2593cdc7d/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+        <Message>
+            <Body>hi</Body>
+            <NumSegments>1</NumSegments>
+            <Direction>inbound</Direction>
+            <From>whatsapp:+918668769415</From>
+            <DateUpdated>Sat, 17 Oct 2020 19:49:25 +0000</DateUpdated>
+            <Price>0.00000</Price>
+            <ErrorMessage />
+            <Uri>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMc8818486dff58d51812dfe6ed5e15f89
+</Uri>
+            <AccountSid>AC2b6fe24ddcbc1ff000aa1354a831b85b</AccountSid>
+            <NumMedia>0</NumMedia>
+            <To>whatsapp:+14155238886</To>
+            <DateCreated>Sat, 17 Oct 2020 19:49:21 +0000</DateCreated>
+            <Status>received</Status>
+            <Sid>SMc8818486dff58d51812dfe6ed5e15f89</Sid>
+            <DateSent>Sat, 17 Oct 2020 19:49:25 +0000</DateSent>
+            <MessagingServiceSid />
+            <ErrorCode />
+            <PriceUnit>USD</PriceUnit>
+            <ApiVersion>2010-04-01</ApiVersion>
+            <SubresourceUris>
+                <Media>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMc8818486dff58d51812dfe6ed5e15f89/Media
+</Media>
+                <Feedback>
+/2010-04-01/Accounts/AC2b6fe24ddcbc1ff000aa1354a831b85b/Messages/SMc8818486dff58d51812dfe6ed5e15f89/Feedback
+</Feedback>
+            </SubresourceUris>
+        </Message>
+    </Messages>
+</TwilioResponse>

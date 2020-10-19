@@ -24,6 +24,11 @@
             "createdOn": "18-Oct-2020 (01:54:36.337738)",
             "complaint_area": "delivery",
             "complaint": "azaz"
+        },
+        {
+            "createdOn": "19-Oct-2020 (01:05:50.321933)",
+            "complaint_area": "delivery",
+            "complaint": "not received\ud83d\ude1f"
         }
     ],
     "feedback": [
@@ -76,6 +81,11 @@
             "createdOn": "14-Sep-2020 (23:07:07.283083)",
             "complaint_area": "5",
             "complaint": "awsome frendy bot! :)"
+        },
+        {
+            "createdOn": "19-Oct-2020 (00:14:02.713373)",
+            "complaint_area": "5",
+            "complaint": "5"
         }
     ]
 }

@@ -12,10 +12,13 @@ import pandas as pd
 import json
 from actionserver.utils import utilities as util
 from actionserver.controllers.faqs.faq import FAQ
+from actionserver.controllers.matchBestString.fuzzyMatch import BestMatch
 from actionserver.controllers.constants.orderForm import *
+from actionserver.controllers.posters.post_gen import makeCards
 import logging
 from actionserver.utils.utilities import INVALID_VALUE
 from actionserver.utils.get_metadata import get_latest_metadata
+
 
 product_list = []
 quant_list = []  # takes quantity from user
@@ -59,7 +62,7 @@ def greet_back(dispatcher):
     dispatcher.utter_message(json_message = {
     "platform":"whatsapp",
     "payload":"text",
-    "text":"Welcome back to Fredy Shopping."
+    "text":"👋👋👋 Welcome back to Fredy Shopping."
     })
     return [UserUttered(text="/greet", parse_data={
         "intent": {"confidence": 1.0, "name": "greet"},
@@ -167,7 +170,7 @@ class OrderForm(FormAction):
                     dispatcher.utter_message(json_message = {
                     "platform":"whatsapp",
                     "payload":"text",
-                    "text":"Type \x2ABack\x2A otherwise."
+                    "text":"Please select the category Type \x2ABack\x2A otherwise."
                     })
                     self.askCategories(dispatcher)
                 elif slot == 'product_name':
@@ -246,8 +249,8 @@ class OrderForm(FormAction):
                 "payload":"image",
                 "data":[
                     {
-                    "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg?size=664&ext=jpg&ga=GA1.2.2138941491.1602861868",
-                    "text":"select product from above"
+                    "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg",
+                    "text":"👆select product from above"
                     }]
             })
             dispatcher.utter_message(json_message={
@@ -256,11 +259,11 @@ class OrderForm(FormAction):
                 "text":"type \x2Aback\x2A otherwise"
             })
         except:
-            dispatcher.utter_message(text="No such Category Found")
+            dispatcher.utter_message(text="No such Category Found 🤷‍♂️")
             dispatcher.utter_message(json_message={
                 "platform":"whatsapp",
                 "payload":"text",
-                "text":"No such Category Found \n \
+                "text":"No such Category Found 🤷‍♂️ \n \
                  type \x2Aback\x2A otherwise"
             })
             raise Exception("No such Category")
@@ -287,7 +290,7 @@ class OrderForm(FormAction):
             "platform":"whatsapp",
             "payload":"image",
             "data": [{
-                "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg?size=664&ext=jpg&ga=GA1.2.2138941491.1602861868"
+                "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg"
             }]
         })
 
@@ -299,8 +302,9 @@ class OrderForm(FormAction):
                                   ) -> Dict[Text, Any]:
 
         data = []
-        category = value
         if value:
+            option = value
+            
             if value.lower() == 'back':
                 return {
                     "product_category": INVALID_VALUE,
@@ -357,7 +361,7 @@ class OrderForm(FormAction):
                             dispatcher.utter_message(json_message = {
                             "platform":"whatsapp",
                             "payload":"text",
-                            "text":"it costs {}".format(j['price'])
+                            "text":"it costs \x2A{}\x2A".format(j['price'])
                             })
                             return {"product_name": product_name}
                         else:
@@ -368,15 +372,15 @@ class OrderForm(FormAction):
                     dispatcher.utter_message(json_message = {
                     "platform":"whatsapp",
                     "payload":"text",
-                    "text":"Sorry we are not selling '"+product_name+"'"
+                    "text":"Sorry we are not selling \x2A"+product_name.upper()+"\x2A"
                     })
                     return {"product_name": None}
                 else:
-                    dispatcher.utter_message(text="No such category found")
+                    dispatcher.utter_message(text="No such category found 🤷‍♂️")
                     dispatcher.utter_message(json_message = {
                     "platform":"whatsapp",
                     "payload":"text",
-                    "text":"No such category found!"
+                    "text":"No such category found! 🤷‍♂️"
                     })
 
         # if product_name in dataset.keys():
@@ -395,21 +399,30 @@ class OrderForm(FormAction):
     ) -> Dict[Text, Any]:
         product_name = tracker.get_slot("product_name")
         quantity = 0
-        if value.lower() == 'back':
+        BACK = ['back', 'go back', 'change name', 'change item', 'change product name','cancel last product', 'previous']
+        sel_option = value.lower()
+        num = util.getWordToNum(sel_option)
+        if num:
+            sel_option = num
+        
+        matchedOption = BestMatch(BACK).getBestMatch(sel_option)
+        if matchedOption:
+            sel_option = matchedOption
+        if sel_option in BACK:
             return {
                 "product_name": None,
                 "quantity": None,
                 REQUESTED_SLOT: "product_name"
             }
         try:
-            quantity = int(value)
+            quantity = int(sel_option)
             return {"product_name": product_name, "quantity": quantity}
         except:
             dispatcher.utter_message(text="Please Enter Valid Number")
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Please enter valid number"
+            "text":"Please enter valid number🔢"
             })
             return {"product_name": product_name, "quantity": None}
 
@@ -427,7 +440,15 @@ class OrderForm(FormAction):
         cat = tracker.get_slot("product_category")
         if proceed:
             proceed = proceed.lower().strip()
-
+            num = util.getWordToNum(proceed)
+            # If user enters number
+            if num:
+                proceed = num
+            # If user enters full text of option
+            OPTIONS = ADD_TO_CART + BUY_NOW + CHANGE_PRODUCT + CHANGE_QUANTITY + SWITCH_CATEGORY
+            matched_opt = BestMatch(OPTIONS).getBestMatch(proceed)
+            if matched_opt:
+                proceed = matched_opt
             # check if the value exist in individual list
             if proceed in ADD_TO_CART:
                 product_obj = {"product": product_name,
@@ -454,7 +475,7 @@ class OrderForm(FormAction):
                 return {"product_category": None, "product_name": None, "proceed": None, "quantity": None, REQUESTED_SLOT: "product_category"}
 
             else:
-                # Select other product
+                # Asks again for proceed option
                 dispatcher.utter_message(text="Please select a valid option")
                 # self.showProducts(cat, dispatcher, tracker)
                 dispatcher.utter_message(json_message = {
@@ -478,6 +499,8 @@ class OrderForm(FormAction):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict]:
+        # INVALID_VALUE is assume to be BACK 
+        # in order to perform form deactivation by filling some complex INVALID_VALUE
         if tracker.get_slot("product_category") == INVALID_VALUE:
             li = [
                 SlotSet("product_category", None),
@@ -502,11 +525,11 @@ class OrderForm(FormAction):
                 # dispatcher.utter_message("{} : {} : {}".format(x['product'],x["quantity"],total))
                 # amount += total
             self.showCart(dispatcher, tracker)
-            dispatcher.utter_message("Total Amount : {}".format(amount))
+            dispatcher.utter_message("Total Amount : {} ₹".format(amount))
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Total Amount : {} \n Thanks for ordering".format(amount)
+            "text":"Total Amount : \x2A{}\x2A \x2A₹\x2A \n Thanks for ordering \n 🙏🙏🙏".format(amount)
             });
-            dispatcher.utter_message("Thanks for ordering")
+            dispatcher.utter_message("Thanks for ordering 🙏🙏🙏")
             return [AllSlotsReset()]

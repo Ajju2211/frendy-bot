@@ -1,5 +1,5 @@
 import cv2
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from PIL import Image
@@ -71,14 +71,14 @@ def design_image(img, name, off, r_s):
     point_discount_percent = ((r_s*0.024, r_s*0.012))
     
     #font_hb_discount_percent = ImageFont.truetype("hb.ttf", int(r_s*0.094))
-    font =  ImageFont.truetype("controllers/posters/fonts/OpenSans-Bold.ttf", int(r_s*0.07))
-    font1 =  ImageFont.truetype("controllers/posters/fonts/RobotoCondensed-BoldItalic.ttf", int(r_s*0.094))
+    font =  ImageFont.truetype("actionserver/controllers/posters/fonts/OpenSans-Bold.ttf", int(r_s*0.07))
+    font1 =  ImageFont.truetype("actionserver/controllers/posters/fonts/RobotoCondensed-BoldItalic.ttf", int(r_s*0.094))
     
     x_font, y_font = font.getsize(product_name)
     x = (r_s - x_font-20)/2
     point_product_name = (int(x+10),int(r_s*.90))
     if x_font > int(r_s*0.85) and x_font<=int(r_s*1.0):
-        font = ImageFont.truetype("controllers/posters/fonts/OpenSans-Bold.ttf", int(r_s*0.063))
+        font = ImageFont.truetype("actionserver/controllers/posters/fonts/OpenSans-Bold.ttf", int(r_s*0.063))
         x_font, y_font = font.getsize(product_name)
         x = (r_s - x_font-20)/2
         point_product_name = (int(x+10),int(r_s*.90))
@@ -86,7 +86,7 @@ def design_image(img, name, off, r_s):
         img_pil = Image.fromarray(img)
         draw = ImageDraw.Draw(img_pil)
     elif x_font > int(r_s*1.0):
-        font = ImageFont.truetype("controllers/posters/fonts/OpenSans-Bold.ttf", int(r_s*0.067))
+        font = ImageFont.truetype("actionserver/controllers/posters/fonts/OpenSans-Bold.ttf", int(r_s*0.067))
         img[r_s-bottom-10:r_s,:, :] = (222, 255, 250) 
         product_name1, product_name = split_text(product_name)
         x_font, y_font = font.getsize(product_name1)
@@ -131,7 +131,7 @@ attrs = pd.DataFrame(attrs)
 def create_jpg(data, length, category, img_array, grid_array, link_array):
     grid_array.append(length)
     coordinates = All_coordinates[length-1]
-    temp = cv2.imread('controllers/posters/grid_temp/' + str(length) +'grid.jpg')
+    temp = cv2.imread('actionserver/controllers/posters/grid_temp/' + str(length) +'grid.jpg')
     r_s = attrs['r_s'][length-1]
     
     for x in zip(data['Item'], data['mrp'], data['discount'], data['img_url'],data['item_url'],coordinates,data['Quantity']):
@@ -149,8 +149,8 @@ def create_jpg(data, length, category, img_array, grid_array, link_array):
         img = cv2.cvtColor(temp, cv2.COLOR_BGR2RGB)
         img_pil = Image.fromarray(img)
         draw = ImageDraw.Draw(img_pil)
-        font = ImageFont.truetype("controllers/posters/fonts/RobotoCondensed-BoldItalic.ttf", attrs['font_size'][length-1])
-        font1 = ImageFont.truetype("controllers/posters/fonts/RobotoCondensed-BoldItalic.ttf", attrs['font1_size'][length-1])
+        font = ImageFont.truetype("actionserver/controllers/posters/fonts/RobotoCondensed-BoldItalic.ttf", attrs['font_size'][length-1])
+        font1 = ImageFont.truetype("actionserver/controllers/posters/fonts/RobotoCondensed-BoldItalic.ttf", attrs['font1_size'][length-1])
         draw.text((x1+attrs['text_font_loc'][length-1][0], y2+attrs['text_font_loc'][length-1][1]), price, font=font, fill=(0,0,0))
         draw.text((x1+attrs['text_font1_loc'][length-1][0],y2+attrs['text_font1_loc'][length-1][1]), str(int(save)), font=font1, fill=(27,109,9))
         draw.text((x1+attrs['text_font1_1_loc'][length-1][0],y2+attrs['text_font1_1_loc'][length-1][1]), str(int(mrp)), font=font1, fill=(100,100,100))
@@ -162,7 +162,7 @@ def create_jpg(data, length, category, img_array, grid_array, link_array):
 
     temp = cv2.cvtColor(temp, cv2.COLOR_BGR2RGB)
     temp = Image.fromarray(temp)
-    font2 = ImageFont.truetype("controllers/posters/fonts/Roboto-BoldItalic.ttf", attrs['font2_size'][length-1])
+    font2 = ImageFont.truetype("actionserver/controllers/posters/fonts/Roboto-BoldItalic.ttf", attrs['font2_size'][length-1])
 
     if length in [5,7,8,10,11]:
         cat_list = category.split()
@@ -233,7 +233,7 @@ def makeCards(data):
 	        max_disc = dataframe[per_disc == max(per_disc)]
 	        create_jpg(max_disc, 1, cat, pages, grid_list, links)
 	        draw = ImageDraw.Draw(pages[0])
-	        font2 = ImageFont.truetype("controllers/posters/fonts/Roboto-BoldItalic.ttf", 100)
+	        font2 = ImageFont.truetype("actionserver/controllers/posters/fonts/Roboto-BoldItalic.ttf", 100)
 	        draw.text((228,53), 'Best Offer' , font=font2, fill=(252,3,3))
 	        draw.text((225,50), 'Best Offer' , font=font2, fill=(255,255,255))
 	        dataframe = dataframe.drop(max_disc.index[0])

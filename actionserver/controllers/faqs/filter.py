@@ -1,6 +1,6 @@
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize 
-puctuations = ("?", ".", ";", ":", "!")
+puctuations = ("?", ".", ";", ":", "!", '"', "#", "$", "%", "&", "\'", "(", ")", "*", "+", ",", "-", ".", ":", ";", "<", "=", ">", "?", "@", "[", "\\",  "]", "^", "_" , "{", "|", "}", "~")
 class Filter:
     def __init__(self,sentence): 
     	self.stop_words = set(stopwords.words('english'))
@@ -14,8 +14,11 @@ class Filter:
 
 
 if __name__ == "__main__":
-	fs = Filter("Where can I find fee structure of Semister")
-	print(fs.filterWords())
+	fs = Filter("Where can I find fee structure of Semister? /!@#$$$%&*&(&(,.'")
+	filtered = fs.filterWords()
+	print(filtered)
+	removedPuncts = fs.removePuctuation(filtered)
+	print(removedPuncts)
 
 
 

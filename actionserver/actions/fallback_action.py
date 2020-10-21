@@ -83,6 +83,7 @@ class DefaultFallback(FormAction):
 
         # print("tracker-latest-message: ",tracker.latest_message)
         # print("tracker-current-state: ",tracker.current_state)
+        # printing meta data for testing
         meta = get_latest_metadata(tracker)
         print(meta)
         dispatcher.utter_message(json_message = {

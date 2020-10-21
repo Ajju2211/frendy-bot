@@ -21,7 +21,7 @@ class FAQ:
             # s = self.fuzz.token_set_ratio(text, q)
             filteredFaq  = Filter(q).filterWords().lower()
             if NLP:
-                from controllers.faqs.similarity import Match
+                from actionserver.controllers.faqs.similarity import Match
                 match = Match()
                 if match.compare(filteredText, filteredFaq)==0:
                     s = 100 + self.fuzz.partial_ratio(filteredText , filteredFaq)

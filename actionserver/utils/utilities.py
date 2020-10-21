@@ -1,7 +1,7 @@
 from datetime import datetime
 import json
 import secrets
-
+from word2number import w2n
 
 INVALID_VALUE = str(secrets.token_hex(20))
 
@@ -35,3 +35,12 @@ def product_info(product_name, category):
                 return {"product": j['product'], "price": j['price'], "image": j['image']}
         return {"none": -1}
     return {"none": -1}
+
+def getWordToNum(word):
+    try:
+        num = w2n.word_to_num(word)
+        return num
+    except ValueError as ve:
+        print(ve)
+        return None
+

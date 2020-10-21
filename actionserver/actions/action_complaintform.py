@@ -153,7 +153,7 @@ class ComplainForm(FormAction):
             dispatcher.utter_message(json_message = {
                 "platform":"whatsapp",
                 "payload":"text",
-                "text":"Thanks for choosing us to server, we are always ready to hear your queries."
+                "text":"Thanks for choosing us to serve, we are always ready to hear your queries."
             });
             li = [SlotSet("complain_type", None),
                   SlotSet("complain_text", None)]

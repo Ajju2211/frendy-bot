@@ -132,13 +132,18 @@ class OrderRatingForm(FormAction):
         rating = ['1', '2', '3', '4', '5']
         try:
             if val:
+                num = util.getWordToNum(val.strip())
+                if num:
+                    val = num
+                # if not a number then raises valueError which is handled
                 val = int(val.strip())
-
                 if str(val) in rating:
 
                     give_rate = tracker.get_slot("give_rating")
 
                     return {"give_rating": give_rate, "order_rating": str(val)}
+                else:
+                    raise ValueError('Rating shoud be 1-5')
             else:
                 dispatcher.utter_message(
                     text='please type rating in between 1 to 5')
@@ -158,6 +163,7 @@ class OrderRatingForm(FormAction):
             })
             return {"order_rating": None, REQUESTED_SLOT: "order_rating"}
 
+        # If some other error raises
         except Exception as ex:
             traceback.print_exc()
             print(ex)
@@ -166,7 +172,7 @@ class OrderRatingForm(FormAction):
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Please type rating in between \x2A1-5\x2A"
+            "text":"Please type rating from 1️⃣-5️⃣"
             })
             return {"order_rating": None, REQUESTED_SLOT: "order_rating"}
 
@@ -179,14 +185,15 @@ class OrderRatingForm(FormAction):
         rating = tracker.get_slot("order_rating")
         give_rating = tracker.get_slot("give_rating")
 
+        # Already filled its value in uppercase in validations
         if give_rating == 'YES':
-
+            # implement saving order rating in DB
             dispatcher.utter_message(
                 text='Thank you your review has been submitted')
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Thank you, your review has been submitted!"
+            "text":"🙂 Thank you, your review has been submitted!"
             })
             # return {"give_rating": None, "order_rating": None}
             return [SlotSet("give_rating", None), SlotSet("order_rating", None)]
@@ -197,7 +204,7 @@ class OrderRatingForm(FormAction):
             dispatcher.utter_message(json_message = {
             "platform":"whatsapp",
             "payload":"text",
-            "text":"Thanks for ordering with us Your order will be delivered shortly, \n \
+            "text":"🙂 Thanks for ordering with us Your order will be delivered shortly, \n \
                 track your order from the Frendy App."
             })
             return [SlotSet("give_rating", None), SlotSet("order_rating", None)]

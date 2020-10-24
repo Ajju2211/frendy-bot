@@ -18,6 +18,7 @@ from actionserver.controllers.posters.post_gen import makeCards
 import logging
 from actionserver.utils.utilities import INVALID_VALUE
 from actionserver.utils.get_metadata import get_latest_metadata
+from actionserver.controllers.products.products import Products
 
 
 product_list = []
@@ -302,8 +303,12 @@ class OrderForm(FormAction):
                                   ) -> Dict[Text, Any]:
 
         data = []
+        BACK = ['0','back', 'go back', 'previous']
         if value:
-            option = value
+            num = util.getWordToNum(value.strip())
+            if num:
+                value = str(num)
+            matched_opt = BestMatch(OPTIONS).getBestMatch(proceed)
             
             if value.lower() == 'back':
                 return {
@@ -313,11 +318,14 @@ class OrderForm(FormAction):
                     "proceed": INVALID_VALUE
                 }
             else:
-                try:
-                    self.showProducts(category, dispatcher, tracker)
-                    return {"product_category": category}
-                except:
-                    return {"product_category": None}
+                self.showProducts(category, dispatcher, tracker)
+                return {"product_category": category}
+                # try:
+                #     self.showProducts(category, dispatcher, tracker)
+                #     return {"product_category": category}
+                # except Exception as e:
+                #     print(e)
+                #     return {"product_category": None}
         else:
             return {"product_category": None}
 
@@ -443,7 +451,7 @@ class OrderForm(FormAction):
             num = util.getWordToNum(proceed)
             # If user enters number
             if num:
-                proceed = num
+                proceed = str(num)
             # If user enters full text of option
             OPTIONS = ADD_TO_CART + BUY_NOW + CHANGE_PRODUCT + CHANGE_QUANTITY + SWITCH_CATEGORY
             matched_opt = BestMatch(OPTIONS).getBestMatch(proceed)

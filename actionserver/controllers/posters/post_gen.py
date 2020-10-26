@@ -134,7 +134,7 @@ def create_jpg(data, length, category, img_array, grid_array, link_array):
     temp = cv2.imread('actionserver/controllers/posters/grid_temp/' + str(length) +'grid.jpg')
     r_s = attrs['r_s'][length-1]
     
-    for x in zip(data['Item'], data['mrp'], data['discount'], data['img_url'],data['item_url'],coordinates,data['Quantity']):
+    for x in zip(data['Item'], data['MRP'], data['Discount'], data['Img_url'],data['Item_url'],coordinates,data['Quantity']):
         name = x[0] + ' ' + x[6]
         mrp = float(x[1])
         save = x[2]
@@ -227,7 +227,7 @@ def makeCards(data):
 	    grid_list = []
 	    links = []
 
-	    per_disc = round((dataframe['discount']/(dataframe['mrp'].astype(float)))*100,1)
+	    per_disc = round((dataframe['Discount']/(dataframe['MRP'].astype(float)))*100,1)
 	    if len(dataframe)%2 == 1 and len(dataframe) !=1:
 	        print("processing best discount Item of category = ",cat)
 	        max_disc = dataframe[per_disc == max(per_disc)]

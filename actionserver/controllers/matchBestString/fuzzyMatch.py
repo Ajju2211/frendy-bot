@@ -7,15 +7,17 @@ class BestMatch:
         self.list = list
         self.fuzz = fuzz
     
-    def getBestMatch(word, threshold = 0.6):
+    def getBestMatch(self,word, threshold = 0.6):
         max_score = 0
         word_idx = 0
-        for word in self.list:
+        i=0
+        for text in self.list:
             filteredText = Filter(text).filterWords().lower()
             s = self.fuzz.partial_ratio(filteredText ,word)
             if s > max_score:
                 max_score = s
                 word_idx = i
+            i = i+1
         
         thresholdReq = threshold*100
         if max_score > thresholdReq:

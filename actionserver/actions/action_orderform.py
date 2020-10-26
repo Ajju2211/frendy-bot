@@ -188,15 +188,21 @@ class OrderForm(FormAction):
     def askCategories(self, dispatcher):
         data = []
         displayCats = "Select categories from below :- \n"
-        for keys in frendy_product_menu['frendy']['product_menu'].keys():
-            val = '\"{}\"'.format(keys)
-            cat = {"label": f"{keys}",
+        # frendy_product_menu['frendy']['product_menu'].keys()
+        products = new Products("sdsd")
+        categories = []
+        categories = products.getCategories()
+        for catItem in categories:
+            val = '\"{}\"'.format(catItem)
+            cat = {"label": f"{catItem}",
                    "value": '/inform{\"product_category\":'+val+'}'}
             data.append(cat)
             
-            cats = "\x2A{}\x2A".format(keys.strip())
+            cats = "\x2A{}\x2A".format(catItem.strip())
 
             displayCats = displayCats  + cats + "\n"
+
+        
 
         message = {"payload": "dropDown", "data": data}
 
@@ -308,7 +314,10 @@ class OrderForm(FormAction):
             num = util.getWordToNum(value.strip())
             if num:
                 value = str(num)
-            matched_opt = BestMatch(OPTIONS).getBestMatch(proceed)
+            products = new Products()
+            OPTIONS = []
+            OPTIONS = products.getCategories()
+            matched_opt = BestMatch().getBestMatch(proceed)
             
             if value.lower() == 'back':
                 return {

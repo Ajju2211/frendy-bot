@@ -3,7 +3,7 @@ from urllib.parse import urljoin
 # import os
 # DB_BASE_URL = os.environ.get('DB_BASE_URL')
 class Products:
-    def __init__(self, DB_BASE_URL):
+    def __init__(self, DB_BASE_URL = "https://frendy123.herokuapp.com/"):
         """
         Paramters: DB_BASE_URL
         DefaultSort: -Discount (Descending order)

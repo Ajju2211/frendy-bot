@@ -17,6 +17,12 @@ from pandas import json_normalize
 import json
 import base64
 from io import BytesIO
+import uuid
+from urllib.parse import urljoin
+import requests
+
+#unique_ID=UUID('16fd2706-8baf-433b-82eb-8c7fada847da')
+
 def main(dataframe, category, pages, grid_list, links):
     data = dataframe
     category = category
@@ -40,6 +46,9 @@ def url_to_image(url):
     image = np.asarray(bytearray(resp.read()), dtype="uint8")
     image = cv2.imdecode(image, cv2.IMREAD_COLOR)
     return image
+
+def image_to_url():
+    pass
 
 def resize_image(img, i):
     img = cv2.resize(img, (i, i))
@@ -245,10 +254,21 @@ def makeCards(data):
 	    img_str = base64.b64encode(buffered.getvalue())
 	    img_base64 = bytes("data:image/jpg;base64,", encoding='utf-8') + img_str
 	    img_base64 = img_base64.decode('utf-8')
+
+	    unique_ID=str(uuid.uuid4())
+	    post_url='https://frendy-rasa-bot.herokuapp.com/media/cache/images/'+ unique_ID
+	    print(post_url)
+	    payload = {'data': img_base64}
+	    headers = {'content-type': 'application/json'}
+	    urlRes = requests.post(url, data=json.dumps(payload), headers=headers).json()
 	    resulted_images.append({
 	    "category":cat,
-	    "url":img_base64
+	    "url":urlRes["url"]
 	    })
+
+
+
+
 
 	return resulted_images
 

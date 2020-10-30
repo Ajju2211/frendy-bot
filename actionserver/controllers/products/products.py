@@ -31,7 +31,7 @@ class Products:
         """
         self.db_categories_url = urljoin(self.db_base_url, "api/v1/allcategories")
         self.categories = requests.get(self.db_categories_url).json()
-        return self.categories
+        return self.categories[0:10]
 
     def getProducts(self):
         """

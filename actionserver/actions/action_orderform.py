@@ -274,7 +274,7 @@ class OrderForm(FormAction):
 
     def showCart(self, dispatcher, tracker):
         data = []
-        cart_list = cartObj.getCurrentCart(tracker.sender_id)
+        cart_list = userObj.getCurrentCart(tracker.sender_id)
         posters = makeCards(cart_list)
         for x in cart_list:
             # image = util.product_info(x['product'], x['category'])['image']

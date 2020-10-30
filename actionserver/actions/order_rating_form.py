@@ -135,8 +135,9 @@ class OrderRatingForm(FormAction):
                 num = util.getWordToNum(val.strip())
                 if num:
                     val = num
+                else:
+                    raise ValueError('Rating shoud be 1-5')
                 # if not a number then raises valueError which is handled
-                val = int(val.strip())
                 if str(val) in rating:
 
                     give_rate = tracker.get_slot("give_rating")

@@ -10,6 +10,7 @@ from rasa.core.constants import REQUESTED_SLOT
 from rasa.core.slots import Slot
 import pandas as pd
 import json
+from operator import itemgetter
 from actionserver.utils import utilities as util
 from actionserver.controllers.faqs.faq import FAQ
 from actionserver.controllers.matchBestString.fuzzyMatch import BestMatch
@@ -19,9 +20,12 @@ import logging
 from actionserver.utils.utilities import INVALID_VALUE
 from actionserver.utils.get_metadata import get_latest_metadata
 from actionserver.controllers.products.products import Products
+from actionserver.controllers.user.User import User
 
+#import actionserver.controllers.products.products
 
 product_list = []
+userObj = User()
 quant_list = []  # takes quantity from user
 
 logger = logging.getLogger(__name__)
@@ -188,21 +192,18 @@ class OrderForm(FormAction):
     def askCategories(self, dispatcher):
         data = []
         displayCats = "Select categories from below :- \n"
-        # frendy_product_menu['frendy']['product_menu'].keys()
-        products = new Products("sdsd")
-        categories = []
-        categories = products.getCategories()
-        for catItem in categories:
-            val = '\"{}\"'.format(catItem)
-            cat = {"label": f"{catItem}",
+
+        Categories=[]
+        Categories=Products().getCategories()
+        for x in Categories:
+            val = '\"{}\"'.format(x)
+            cat = {"label": f"{x}",
                    "value": '/inform{\"product_category\":'+val+'}'}
             data.append(cat)
             
-            cats = "\x2A{}\x2A".format(catItem.strip())
-
+            cats = "\x2A{}\x2A".format(x.strip())
             displayCats = displayCats  + cats + "\n"
 
-        
 
         message = {"payload": "dropDown", "data": data}
 
@@ -225,16 +226,19 @@ class OrderForm(FormAction):
     def showProducts(self, category, dispatcher, tracker):
         dic = {}
         data = []
+        products = Products().getProductsByCat(category)
         print(f"cat:{category}")
         try:
-            if frendy_product_menu['frendy']['product_menu'][category]:
-                temp = frendy_product_menu['frendy']['product_menu'][category]
+            if products:
+                temp = products
                 for j in temp:
 
                     dic = {
-                        "title": j['product'],
-                        "price": j['price'],
-                        "image": j['image']
+                        "title": j['Item'],
+                        "price": j['Price'],
+                        "image": j['Img_url'],
+                        "discount": j['Discount']
+
                     }
 
                     data.append(dic)
@@ -249,21 +253,13 @@ class OrderForm(FormAction):
 
             dispatcher.utter_message(
                 text="Please type the product name", json_message=message, buttons=button_resp)
+            posters=makeCards(products)
 
             # return {"product_category": category}
             dispatcher.utter_message(json_message={
                 "platform":"whatsapp",
                 "payload":"image",
-                "data":[
-                    {
-                    "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg",
-                    "text":"👆select product from above"
-                    }]
-            })
-            dispatcher.utter_message(json_message={
-                "platform":"whatsapp",
-                "payload":"text",
-                "text":"type \x2Aback\x2A otherwise"
+                "data":posters
             })
         except:
             dispatcher.utter_message(text="No such Category Found 🤷‍♂️")
@@ -278,13 +274,17 @@ class OrderForm(FormAction):
 
     def showCart(self, dispatcher, tracker):
         data = []
-        for x in product_list:
-            image = util.product_info(x['product'], x['category'])['image']
-            price = util.product_info(x['product'], x['category'])['price']
+        cart_list = cartObj.getCurrentCart(tracker.sender_id)
+        posters = makeCards(cart_list)
+        for x in cart_list:
+            # image = util.product_info(x['product'], x['category'])['image']
+            # price = util.product_info(x['product'], x['category'])['price']
+            image = x['Img_url']
+            price = x['Price']
             cart = {
-                "title": x['product'],
+                "title": x['Item'],
                 "image": image,
-                "quantity": x['quantity'],
+                "quantity": x['qty'],
                 "price": price
             }
 
@@ -296,9 +296,7 @@ class OrderForm(FormAction):
         dispatcher.utter_message(json_message={
             "platform":"whatsapp",
             "payload":"image",
-            "data": [{
-                "url":"https://img.freepik.com/free-psd/explore-your-music-social-media-post_23-2148641828.jpg"
-            }]
+            "data":posters
         })
 
     def validate_product_category(self,
@@ -314,12 +312,13 @@ class OrderForm(FormAction):
             num = util.getWordToNum(value.strip())
             if num:
                 value = str(num)
-            products = new Products()
-            OPTIONS = []
-            OPTIONS = products.getCategories()
-            matched_opt = BestMatch().getBestMatch(proceed)
             
-            if value.lower() == 'back':
+            OPTIONS=[]
+            OPTIONS=Products().getCategories()
+            
+            matched_opt = BestMatch(OPTIONS+BACK).getBestMatch(value.strip())
+            
+            if matched_opt in BACK:
                 return {
                     "product_category": INVALID_VALUE,
                     "product_name": INVALID_VALUE,
@@ -327,8 +326,8 @@ class OrderForm(FormAction):
                     "proceed": INVALID_VALUE
                 }
             else:
-                self.showProducts(category, dispatcher, tracker)
-                return {"product_category": category}
+                self.showProducts(matched_opt, dispatcher, tracker)
+                return {"product_category": matched_opt}
                 # try:
                 #     self.showProducts(category, dispatcher, tracker)
                 #     return {"product_category": category}
@@ -350,56 +349,77 @@ class OrderForm(FormAction):
                               tracker: Tracker,
                               domain: Dict[Text, Any],
                               ) -> Dict[Text, Any]:
+        
+        BACK = ["0", "back", "go back", "previous", "change category"]
+        category = tracker.get_slot("product_category")
+        products = Products().getProductsByCat(category)
+        PRODUCT_NAMES = list(map(itemgetter('Item'), products)) 
+        # to debug whether the slot is present
+        print(category)        
+
+
         if value:
-            value = value.lower()
-            if value == "back" or value == "back1":
-                return {
-                    "product_category": None,
-                    "product_name": None,
-                    "quantity": None,
-                    "proceed": None,
-                    REQUESTED_SLOT: "product_category"
-                }
-            else:
-
-                category = tracker.get_slot("product_category")
-
-                # to debug whether the slot is present
-                print(category)
-
-                product_name = value
-                product_menu = frendy_product_menu['frendy']['product_menu']
-                if product_menu[category]:
-                    temp = product_menu[category]
-                    for j in temp:
-                        if product_name.lower() == j['product'].lower():
-                            dispatcher.utter_message(
-                                "it costs {}".format(j['price']))
-                            dispatcher.utter_message(json_message = {
-                            "platform":"whatsapp",
-                            "payload":"text",
-                            "text":"it costs \x2A{}\x2A".format(j['price'])
-                            })
-                            return {"product_name": product_name}
-                        else:
-                            continue
-                            # dispatcher.utter_template("utter_not_serving",tracker)
-                            # return {"product_name":None}
-                    dispatcher.utter_template("utter_not_serving", tracker)
-                    dispatcher.utter_message(json_message = {
-                    "platform":"whatsapp",
-                    "payload":"text",
-                    "text":"Sorry we are not selling \x2A"+product_name.upper()+"\x2A"
-                    })
-                    return {"product_name": None}
+            try:
+                value = value.lower()
+                # Always takes +ve numbers/word 
+                num = util.getWordToNum(value.strip())
+                if num:
+                    if num==0:
+                        value = "back"
+                    else:
+                        try:
+                            value = PRODUCT_NAMES[num-1]
+                        except:
+                            raise ValueError("number outof bound")
+                
+                option = BestMatch(BACK+PRODUCT_NAMES).getBestMatch(value.strip())
+                if option in BACK:
+                    return {
+                        "product_category": None,
+                        "product_name": None,
+                        "quantity": None,
+                        "proceed": None,
+                        REQUESTED_SLOT: "product_category"
+                    }
                 else:
-                    dispatcher.utter_message(text="No such category found 🤷‍♂️")
-                    dispatcher.utter_message(json_message = {
-                    "platform":"whatsapp",
-                    "payload":"text",
-                    "text":"No such category found! 🤷‍♂️"
-                    })
-
+                    product_name = option
+                    if products:
+                        for j in products:
+                            if product_name.lower() == j['Item'].lower():
+                                dispatcher.utter_message(
+                                    "it costs {}".format(j['Price']))
+                                dispatcher.utter_message(json_message = {
+                                "platform":"whatsapp",
+                                "payload":"text",
+                                "text":"it costs \x2A{}\x2A".format(j['Price'])
+                                })
+                                return {"product_name": j}
+                            else:
+                                continue
+                                # dispatcher.utter_template("utter_not_serving",tracker)
+                                # return {"product_name":None}
+                        dispatcher.utter_template("utter_not_serving", tracker)
+                        dispatcher.utter_message(json_message = {
+                        "platform":"whatsapp",
+                        "payload":"text",
+                        "text":"Sorry we are not selling \x2A"+product_name.upper()+"\x2A"
+                        })
+                        return {"product_name": None}
+                    else:
+                        dispatcher.utter_message(text="No such category found 🤷‍♂️")
+                        dispatcher.utter_message(json_message = {
+                        "platform":"whatsapp",
+                        "payload":"text",
+                        "text":"No such category found! 🤷‍♂️"
+                        })
+            except ValueError as ve:
+                dispatcher.utter_template("utter_not_serving", tracker)
+                dispatcher.utter_message(json_message = {
+                "platform":"whatsapp",
+                "payload":"text",
+                "text":"Sorry we are not selling \x2A"+value+"\x2A"
+                })
+                return {"product_name": None}
         # if product_name in dataset.keys():
         #     dispatcher.utter_message("it costs {}".format(dataset[product_name][0]))
         #     return {"product_name": product_name}
@@ -416,13 +436,17 @@ class OrderForm(FormAction):
     ) -> Dict[Text, Any]:
         product_name = tracker.get_slot("product_name")
         quantity = 0
-        BACK = ['back', 'go back', 'change name', 'change item', 'change product name','cancel last product', 'previous']
+        BACK = ['0','back', 'go back', 'change name', 'change item', 'change product name','cancel last product', 'previous']
         sel_option = value.lower()
-        num = util.getWordToNum(sel_option)
+        num = util.getWordToNum(str(sel_option))
         if num:
-            sel_option = num
+            if num==0:
+                sel_option = 'back'
+            else:
+                sel_option = str(num)
+            
         
-        matchedOption = BestMatch(BACK).getBestMatch(sel_option)
+        matchedOption = BestMatch(BACK).getBestMatch(str(sel_option.strip()))
         if matchedOption:
             sel_option = matchedOption
         if sel_option in BACK:
@@ -451,9 +475,12 @@ class OrderForm(FormAction):
         domain: Dict[Text, Any],
     ) -> Dict[Text, Any]:
 
-        product_name = tracker.get_slot("product_name")
+        product_obj = json.loads(json.dumps(tracker.get_slot("product_name")))
+        product_name = product_obj['Item']
         proceed = value
         quant = int(tracker.get_slot("quantity"))
+        # Add quantity to product_obj
+        product_obj['qty'] = quant
         cat = tracker.get_slot("product_category")
         if proceed:
             proceed = proceed.lower().strip()
@@ -468,33 +495,35 @@ class OrderForm(FormAction):
                 proceed = matched_opt
             # check if the value exist in individual list
             if proceed in ADD_TO_CART:
-                product_obj = {"product": product_name,
-                               "quantity": quant, "category": cat}
-                product_list.append(product_obj)
+                # product_list.append(product_obj)
+                userObj.appendToCart(tracker.sender_id, product_obj)
+
+                # continuuosly displaying same category items
                 self.showProducts(cat, dispatcher, tracker)
-                print("quantity")
                 return {"proceed": None, "product_name": None, "quantity": None, REQUESTED_SLOT: "product_name"}
 
             elif proceed in BUY_NOW:
-                product_obj = {"product": product_name,
-                               "quantity": quant, "category": cat}
-                product_list.append(product_obj)
+                # product_list.append(product_obj)
+                userObj.appendToCart(tracker.sender_id, product_obj)
                 return {"proceed": proceed}
 
             elif proceed in CHANGE_PRODUCT:
+                # change product without adding
                 self.showProducts(cat, dispatcher, tracker)
                 return {"product_name": None, "proceed": None, "quantity": None, REQUESTED_SLOT: "product_name"}
 
             elif proceed in CHANGE_QUANTITY:
+                # change quantity without adding
                 return {"quantity": None, "proceed": None, REQUESTED_SLOT: "quantity"}
 
             elif proceed in SWITCH_CATEGORY:
+                # change category without adding
                 return {"product_category": None, "product_name": None, "proceed": None, "quantity": None, REQUESTED_SLOT: "product_category"}
 
             else:
+                # something doesn't understand
                 # Asks again for proceed option
                 dispatcher.utter_message(text="Please select a valid option")
-                # self.showProducts(cat, dispatcher, tracker)
                 dispatcher.utter_message(json_message = {
                 "platform":"whatsapp",
                 "payload":"text",
@@ -534,10 +563,10 @@ class OrderForm(FormAction):
             product_cat = tracker.get_slot("product_category")
             total = 0
             price = 0
-
-            for x in product_list:
-                prize = util.product_info(x['product'], x['category'])['price']
-                total = float(prize)*int(x['quantity'])
+            cart_list = userObj.getCurrentCart(tracker.sender_id)
+            for x in cart_list:
+                prize = x['Price']
+                total = float(prize)*int(x['qty'])
                 amount += total
                 # dispatcher.utter_message("{} : {} : {}".format(x['product'],x["quantity"],total))
                 # amount += total

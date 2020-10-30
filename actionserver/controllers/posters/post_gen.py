@@ -260,7 +260,7 @@ def makeCards(data):
 	    print(post_url)
 	    payload = {'data': img_base64}
 	    headers = {'content-type': 'application/json'}
-	    urlRes = requests.post(url, data=json.dumps(payload), headers=headers).json()
+	    urlRes = json.loads(requests.post(post_url, data = payload, headers=headers).text())
 	    resulted_images.append({
 	    "category":cat,
 	    "url":urlRes["url"]

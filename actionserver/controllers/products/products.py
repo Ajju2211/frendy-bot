@@ -13,8 +13,8 @@ class Products:
         
         self.db_base_url = DB_BASE_URL
         
-        self.db_products_url = urljoin(DB_BASE_URL, "api/v1/products/")
-        self.db_categories_url = urljoin(DB_BASE_URL, "api/v1/allcategories")
+        self.db_products_url = urljoin(DB_BASE_URL, "api/v2/products/")
+        self.db_categories_url = urljoin(DB_BASE_URL, "api/v2/allcategories")
         self.categories = requests.get(self.db_categories_url).json()
         self.products = None
       
@@ -29,7 +29,7 @@ class Products:
         """
         Returns list of categories
         """
-        self.db_categories_url = urljoin(self.db_base_url, "api/v1/allcategories")
+        self.db_categories_url = urljoin(self.db_base_url, "api/v2/allcategories")
         self.categories = requests.get(self.db_categories_url).json()
         return self.categories[0:10]
 
@@ -53,7 +53,7 @@ class Products:
         Returns: Specific Product
         type: Dict
         """
-        product_url = urljoin(self.db_base_url,"api/v1/products/"+p_id)
+        product_url = urljoin(self.db_base_url,"api/v2/products/"+p_id)
         product = requests.get(product_url).json()
         return product
 
